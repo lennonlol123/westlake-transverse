@@ -1,0 +1,415 @@
+{
+ "version": "world10-surfaces5-v1-2026-11-07",
+ "doc": "docs/antagonist_boss/43_eight_world_pack.md section 16",
+ "rule_D": [
+  "D1 max HP differs from every accepted world",
+  "D2 (base attack, max HP, shield, heal) not identical to any accepted world"
+ ],
+ "balance": [
+  0.465,
+  0.585
+ ],
+ "prefilter": [
+  65.4,
+  104.1
+ ],
+ "accepted_fixed": [
+  "A",
+  "k19",
+  "k3",
+  "k21",
+  "k42",
+  "k13",
+  "k15"
+ ],
+ "replaced": "k62",
+ "slot": 6,
+ "surfaces": {
+  "k71": {
+   "identity_key": 71,
+   "identity_version": 3,
+   "names_key": 7200000000,
+   "economy": {
+    "life_in_hits": 32,
+    "rest_pct": 30,
+    "block_x": 88,
+    "block_pct": 40
+   },
+   "draws": {
+    "life_in_hits": [
+     [
+      28,
+      "E1 too close to A"
+     ],
+     [
+      32,
+      "accepted"
+     ]
+    ],
+    "rest_pct": [
+     [
+      39,
+      "E2 taken by an accepted surface"
+     ],
+     [
+      30,
+      "accepted"
+     ]
+    ],
+    "block_x": [
+     [
+      119,
+      "E3 shield 6 >= weakest hit 6"
+     ],
+     [
+      102,
+      "E1 too close to A"
+     ],
+     [
+      100,
+      "E1 too close to A"
+     ],
+     [
+      114,
+      "E3 shield 6 >= weakest hit 6"
+     ],
+     [
+      88,
+      "accepted"
+     ]
+    ]
+   },
+   "facts": {
+    "base_atk": 7,
+    "max_hp": 224,
+    "shield": 4,
+    "heal": 13,
+    "cards": {
+     "githnae": "buff_mark",
+     "khutoun": "heal",
+     "reilhur": "block",
+     "shastia": "dodge",
+     "teikbom": "attack"
+    },
+    "labels": {
+     "me.atk": "a2",
+     "me.block": "A3",
+     "me.cap": "a1",
+     "me.carry": "A5",
+     "me.dodge": "A7",
+     "me.double": "A8",
+     "me.energy": "a3",
+     "me.hp": "a4",
+     "me.offence": "A6",
+     "me.poison": "A4",
+     "me.tempo": "A1",
+     "me.wound": "A2",
+     "them.armour": "b3",
+     "them.atk": "b2",
+     "them.charge": "B2",
+     "them.guard": "B3",
+     "them.hp": "b1",
+     "them.mark": "B1",
+     "them.mimic": "B5",
+     "them.ward": "B4"
+    },
+    "weakest_map_hit": 6,
+    "weakest_boss_hit": 6
+   }
+  },
+  "k79": {
+   "identity_key": 79,
+   "identity_version": 3,
+   "names_key": 8000000000,
+   "economy": {
+    "life_in_hits": 34,
+    "rest_pct": 28,
+    "block_x": 81,
+    "block_pct": 36
+   },
+   "draws": {
+    "life_in_hits": [
+     [
+      31,
+      "E1 too close to A"
+     ],
+     [
+      27,
+      "E1 too close to A"
+     ],
+     [
+      34,
+      "accepted"
+     ]
+    ],
+    "rest_pct": [
+     [
+      40,
+      "E2 taken by an accepted surface"
+     ],
+     [
+      35,
+      "E1 too close to A"
+     ],
+     [
+      35,
+      "E1 too close to A"
+     ],
+     [
+      40,
+      "E2 taken by an accepted surface"
+     ],
+     [
+      37,
+      "E1 too close to A"
+     ],
+     [
+      28,
+      "accepted"
+     ]
+    ],
+    "block_x": [
+     [
+      96,
+      "E1 too close to A"
+     ],
+     [
+      97,
+      "E1 too close to A"
+     ],
+     [
+      100,
+      "E1 too close to A"
+     ],
+     [
+      109,
+      "E1 too close to A"
+     ],
+     [
+      108,
+      "E1 too close to A"
+     ],
+     [
+      84,
+      "E2 taken by an accepted surface"
+     ],
+     [
+      81,
+      "accepted"
+     ]
+    ]
+   },
+   "facts": {
+    "base_atk": 5,
+    "max_hp": 170,
+    "shield": 3,
+    "heal": 9,
+    "cards": {
+     "brogrik": "attack",
+     "diashol": "buff_mark",
+     "gugran": "block",
+     "sunei": "dodge",
+     "zaelzi": "heal"
+    },
+    "labels": {
+     "me.atk": "a4",
+     "me.block": "A2",
+     "me.cap": "a1",
+     "me.carry": "A5",
+     "me.dodge": "A7",
+     "me.double": "A6",
+     "me.energy": "a3",
+     "me.hp": "a2",
+     "me.offence": "A4",
+     "me.poison": "A8",
+     "me.tempo": "A3",
+     "me.wound": "A1",
+     "them.armour": "b1",
+     "them.atk": "b3",
+     "them.charge": "B3",
+     "them.guard": "B5",
+     "them.hp": "b2",
+     "them.mark": "B4",
+     "them.mimic": "B1",
+     "them.ward": "B2"
+    },
+    "weakest_map_hit": 4,
+    "weakest_boss_hit": 4
+   }
+  }
+ },
+ "tried": [
+  {
+   "key": 63,
+   "result": "skipped",
+   "why": "K2 slots ('B5', 'B1', 'B4') share more than 1 with an accepted surface"
+  },
+  {
+   "key": 64,
+   "result": "skipped",
+   "why": "K2 slots ('B5', 'B4', 'B3') share more than 1 with an accepted surface"
+  },
+  {
+   "key": 65,
+   "name": "k65",
+   "economy": {
+    "life_in_hits": 33,
+    "rest_pct": 30,
+    "block_x": 81,
+    "block_pct": 36
+   },
+   "base_atk": 5,
+   "max_hp": 165,
+   "shield": 3,
+   "heal": 7,
+   "budget_ratio": 76.4,
+   "prefilter": true,
+   "distinct": [
+    "D1 max HP 165 equals k3"
+   ],
+   "result": "amendment-5 skip (not measured)"
+  },
+  {
+   "key": 66,
+   "result": "skipped",
+   "why": "K1 base attack 6 already used 2 times by accepted surfaces"
+  },
+  {
+   "key": 67,
+   "result": "skipped",
+   "why": "K2 slots ('B5', 'B3', 'B2') share more than 1 with an accepted surface"
+  },
+  {
+   "key": 68,
+   "result": "skipped",
+   "why": "K2 slots ('B5', 'B1', 'B3') share more than 1 with an accepted surface"
+  },
+  {
+   "key": 69,
+   "result": "skipped",
+   "why": "K2 slots ('B3', 'B1', 'B2') share more than 1 with an accepted surface"
+  },
+  {
+   "key": 70,
+   "result": "skipped",
+   "why": "K2 slots ('B3', 'B2', 'B1') share more than 1 with an accepted surface"
+  },
+  {
+   "key": 71,
+   "name": "k71",
+   "economy": {
+    "life_in_hits": 32,
+    "rest_pct": 30,
+    "block_x": 88,
+    "block_pct": 40
+   },
+   "base_atk": 7,
+   "max_hp": 224,
+   "shield": 4,
+   "heal": 13,
+   "budget_ratio": 75.86,
+   "prefilter": true,
+   "distinct": [],
+   "D_median": 0.672316384180791,
+   "qualifying": 62,
+   "qualifying_by_missing": {
+    "charge": 9,
+    "guard": 28,
+    "counter": 19,
+    "momentum": 3,
+    "ward": 3
+   },
+   "refs_lose": 3,
+   "result": "rejected (balance)"
+  },
+  {
+   "key": 72,
+   "result": "skipped",
+   "why": "K1 base attack 6 already used 2 times by accepted surfaces"
+  },
+  {
+   "key": 73,
+   "result": "skipped",
+   "why": "K2 slots ('B2', 'B4', 'B1') share more than 1 with an accepted surface"
+  },
+  {
+   "key": 74,
+   "result": "skipped",
+   "why": "K2 slots ('B3', 'B1', 'B2') share more than 1 with an accepted surface"
+  },
+  {
+   "key": 75,
+   "name": "k75",
+   "economy": {
+    "life_in_hits": 33,
+    "rest_pct": 30,
+    "block_x": 89,
+    "block_pct": 40
+   },
+   "base_atk": 5,
+   "max_hp": 165,
+   "shield": 3,
+   "heal": 9,
+   "budget_ratio": 77.6,
+   "prefilter": true,
+   "distinct": [
+    "D1 max HP 165 equals k3"
+   ],
+   "result": "amendment-5 skip (not measured)"
+  },
+  {
+   "key": 76,
+   "result": "skipped",
+   "why": "K1 base attack 9 already used 2 times by accepted surfaces"
+  },
+  {
+   "key": 77,
+   "result": "skipped",
+   "why": "K1 base attack 9 already used 2 times by accepted surfaces"
+  },
+  {
+   "key": 78,
+   "result": "skipped",
+   "why": "K1 base attack 9 already used 2 times by accepted surfaces"
+  },
+  {
+   "key": 79,
+   "name": "k79",
+   "economy": {
+    "life_in_hits": 34,
+    "rest_pct": 28,
+    "block_x": 81,
+    "block_pct": 36
+   },
+   "base_atk": 5,
+   "max_hp": 170,
+   "shield": 3,
+   "heal": 9,
+   "budget_ratio": 77.0,
+   "prefilter": true,
+   "distinct": [],
+   "D_median": 0.5675324675324676,
+   "qualifying": 135,
+   "qualifying_by_missing": {
+    "charge": 26,
+    "guard": 41,
+    "counter": 45,
+    "momentum": 15,
+    "ward": 8
+   },
+   "refs_lose": 1,
+   "result": "accepted"
+  }
+ ],
+ "order": [
+  "A",
+  "k19",
+  "k3",
+  "k21",
+  "k42",
+  "k79",
+  "k13",
+  "k15"
+ ],
+ "seconds": 1829.5
+}

@@ -1,0 +1,372 @@
+[
+  {
+    "file": "audit/__init__.py",
+    "original_sha256": "ef7893c4983c84e335f616b09547d4f0e7e1fa444c7178b5b0a43f6c1b5a210f",
+    "bundled_sha256": "ef7893c4983c84e335f616b09547d4f0e7e1fa444c7178b5b0a43f6c1b5a210f",
+    "changes": []
+  },
+  {
+    "file": "audit/parse_log.py",
+    "original_sha256": "10fefa134092b84f304d5e27f82a93c93a91a1e728410967219c661ee3b9d305",
+    "bundled_sha256": "10fefa134092b84f304d5e27f82a93c93a91a1e728410967219c661ee3b9d305",
+    "changes": []
+  },
+  {
+    "file": "audit/participant_text.py",
+    "original_sha256": "9d0e9ca9db7aeedcf749b43b196990ad26690a550ef1e843ee07106b5ab4ca34",
+    "bundled_sha256": "9d0e9ca9db7aeedcf749b43b196990ad26690a550ef1e843ee07106b5ab4ca34",
+    "changes": []
+  },
+  {
+    "file": "core/adventure.py",
+    "original_sha256": "85e46c872f97734391ee3f45a2e6754fa1922ffac01bdc035255b4eaeadc4e84",
+    "bundled_sha256": "85e46c872f97734391ee3f45a2e6754fa1922ffac01bdc035255b4eaeadc4e84",
+    "changes": []
+  },
+  {
+    "file": "core/camp.py",
+    "original_sha256": "80b5e430c47b352d40118e59e1356a46f120f7e379262a66f9d0228fb328ab8f",
+    "bundled_sha256": "80b5e430c47b352d40118e59e1356a46f120f7e379262a66f9d0228fb328ab8f",
+    "changes": []
+  },
+  {
+    "file": "core/cautious.py",
+    "original_sha256": "1fe1b55c2313f443ab37f491b9c7c570ad1b90fac163d8e207f19441bcb87bee",
+    "bundled_sha256": "1fe1b55c2313f443ab37f491b9c7c570ad1b90fac163d8e207f19441bcb87bee",
+    "changes": []
+  },
+  {
+    "file": "core/claude_backend.py",
+    "original_sha256": "67081359770a097c157ec8621601d5356cdfaed7879af7c17de9ffd5f054ef8f",
+    "bundled_sha256": "67081359770a097c157ec8621601d5356cdfaed7879af7c17de9ffd5f054ef8f",
+    "changes": []
+  },
+  {
+    "file": "core/devworld.py",
+    "original_sha256": "6b1e91b56a5ce502903ac5b9dbcff0de473605fadd759f1dac4afd7d08900c78",
+    "bundled_sha256": "6b1e91b56a5ce502903ac5b9dbcff0de473605fadd759f1dac4afd7d08900c78",
+    "changes": []
+  },
+  {
+    "file": "core/efficiency.py",
+    "original_sha256": "d812032e0a99e7a37ad706b5c937268d782e53ac12e731c38d50bea6b5addd4b",
+    "bundled_sha256": "d812032e0a99e7a37ad706b5c937268d782e53ac12e731c38d50bea6b5addd4b",
+    "changes": []
+  },
+  {
+    "file": "core/gates.py",
+    "original_sha256": "612143eb8051cbcfcf595e6ddf45c1dcd6c92a5643fb027dadb85bcbb8838d41",
+    "bundled_sha256": "612143eb8051cbcfcf595e6ddf45c1dcd6c92a5643fb027dadb85bcbb8838d41",
+    "changes": []
+  },
+  {
+    "file": "core/gui/transverse_skins/manifest.json",
+    "original_sha256": "aecd9c4620905e077da5413c699e4d977ad73049d6c9d685892114f8bb6ab13d",
+    "bundled_sha256": "aecd9c4620905e077da5413c699e4d977ad73049d6c9d685892114f8bb6ab13d",
+    "changes": []
+  },
+  {
+    "file": "core/gui_bridge.py",
+    "original_sha256": "7752fd133eb3c40382044a0db57bf3bd2983fb1ab408b4de61844988976fa40c",
+    "bundled_sha256": "7752fd133eb3c40382044a0db57bf3bd2983fb1ab408b4de61844988976fa40c",
+    "changes": []
+  },
+  {
+    "file": "core/gui_skins.py",
+    "original_sha256": "a5cb79923f63e51994f6457e03a98b22eb0b415f4b24f0d098d4fbb929bf3810",
+    "bundled_sha256": "a5cb79923f63e51994f6457e03a98b22eb0b415f4b24f0d098d4fbb929bf3810",
+    "changes": []
+  },
+  {
+    "file": "core/humangui.py",
+    "original_sha256": "aaa2b7e18954eab27dc2345450f51229468e6e1b78cce596134ba09a502e2a9b",
+    "bundled_sha256": "aaa2b7e18954eab27dc2345450f51229468e6e1b78cce596134ba09a502e2a9b",
+    "changes": []
+  },
+  {
+    "file": "core/humanrun.py",
+    "original_sha256": "93d76c65f838fdb20f104599c121495a78ac6661e1f03d1001671326f681692a",
+    "bundled_sha256": "93d76c65f838fdb20f104599c121495a78ac6661e1f03d1001671326f681692a",
+    "changes": []
+  },
+  {
+    "file": "core/learner.py",
+    "original_sha256": "8612487521ae099d334539c0eb3f0c06d79cbb454b2c381c93c71e91e76855e8",
+    "bundled_sha256": "8612487521ae099d334539c0eb3f0c06d79cbb454b2c381c93c71e91e76855e8",
+    "changes": []
+  },
+  {
+    "file": "core/ledger.py",
+    "original_sha256": "5a7c0a13cf8c50578b409780f4821192f966202bd457308310366cfd39908af3",
+    "bundled_sha256": "5a7c0a13cf8c50578b409780f4821192f966202bd457308310366cfd39908af3",
+    "changes": []
+  },
+  {
+    "file": "core/modelrun.py",
+    "original_sha256": "365401cfe26d64a814ec6b05b99d9495708e9950be2d9a004902bb6e1e6c080b",
+    "bundled_sha256": "365401cfe26d64a814ec6b05b99d9495708e9950be2d9a004902bb6e1e6c080b",
+    "changes": []
+  },
+  {
+    "file": "core/namegen.py",
+    "original_sha256": "0b88b666129b44abb174d3bce9e07a64bc6d455cba0063eb23ebd112e7c99cce",
+    "bundled_sha256": "0b88b666129b44abb174d3bce9e07a64bc6d455cba0063eb23ebd112e7c99cce",
+    "changes": []
+  },
+  {
+    "file": "core/observe.py",
+    "original_sha256": "4065dc874fab83ad80f31ee52c1f4a49b7cc29cead283cea36c979d8fc365a53",
+    "bundled_sha256": "4065dc874fab83ad80f31ee52c1f4a49b7cc29cead283cea36c979d8fc365a53",
+    "changes": []
+  },
+  {
+    "file": "core/prices.py",
+    "original_sha256": "16b17e21859bd937cb31126aa6ed1293843092c372dffa9e6f069bde88684501",
+    "bundled_sha256": "16b17e21859bd937cb31126aa6ed1293843092c372dffa9e6f069bde88684501",
+    "changes": []
+  },
+  {
+    "file": "core/solver.py",
+    "original_sha256": "b2c09df593c940fb0b26768ff94562f05826e78aa04a91bcdc9bf1a170d71190",
+    "bundled_sha256": "b2c09df593c940fb0b26768ff94562f05826e78aa04a91bcdc9bf1a170d71190",
+    "changes": []
+  },
+  {
+    "file": "core/tune.py",
+    "original_sha256": "60b034fa86704eb99cde4448c11a7b6a03a71b6f9f2b5a1610fbfe86e9392789",
+    "bundled_sha256": "60b034fa86704eb99cde4448c11a7b6a03a71b6f9f2b5a1610fbfe86e9392789",
+    "changes": []
+  },
+  {
+    "file": "data/pack_v3c1_v7hard4.json",
+    "original_sha256": null,
+    "bundled_sha256": "2c4b1ac653b2de9ceb670971b64f1a6fff14a844f5c5608c6d00f44faeb71886",
+    "changes": []
+  },
+  {
+    "file": "data/restamt/r1v2x130c.json",
+    "original_sha256": null,
+    "bundled_sha256": "27eb3ed3bf0768ad40ee32dd8882169c5a88ae94740b25b9ea4027287726a01e",
+    "changes": []
+  },
+  {
+    "file": "scripts/antagonist_boss.py",
+    "original_sha256": "56c1c2dbaf6b3c8fd99f6f7491ff8dea58c851960f0707a50c602e0bfbe278fe",
+    "bundled_sha256": "56c1c2dbaf6b3c8fd99f6f7491ff8dea58c851960f0707a50c602e0bfbe278fe",
+    "changes": []
+  },
+  {
+    "file": "scripts/antagonist_diag.py",
+    "original_sha256": "dcf7848ad130342d98bfa137acb54686a75af59369d98104251970bb9c0533cf",
+    "bundled_sha256": "dcf7848ad130342d98bfa137acb54686a75af59369d98104251970bb9c0533cf",
+    "changes": []
+  },
+  {
+    "file": "scripts/antagonist_proto.py",
+    "original_sha256": "688a49b874723c4351cea993af16bae5c7bec0fba562f0d84240540be778fd2b",
+    "bundled_sha256": "aaf1eb150b13b8ba9df57412eb2662af146b7ccb205d5d08b2434b5e2cedc042",
+    "changes": [
+      "filesystem paths only"
+    ]
+  },
+  {
+    "file": "scripts/conversation_mode.py",
+    "original_sha256": "adfa35d436cfb4e5dad33475a69fc37c775f167a92aacc2742db8388dcc35e90",
+    "bundled_sha256": "adfa35d436cfb4e5dad33475a69fc37c775f167a92aacc2742db8388dcc35e90",
+    "changes": []
+  },
+  {
+    "file": "scripts/durable_resume.py",
+    "original_sha256": "cb1b10764e2740ce1bdc0e5e9c38ce7725b2fc7dc6ef66da94444a60600fc9a7",
+    "bundled_sha256": "cb1b10764e2740ce1bdc0e5e9c38ce7725b2fc7dc6ef66da94444a60600fc9a7",
+    "changes": []
+  },
+  {
+    "file": "scripts/fixed_habits.py",
+    "original_sha256": "eecd14d37f2b1ae03deac550ce7c23087acabd6666b83c63c40de31aef153857",
+    "bundled_sha256": "eecd14d37f2b1ae03deac550ce7c23087acabd6666b83c63c40de31aef153857",
+    "changes": []
+  },
+  {
+    "file": "scripts/fixed_panel.py",
+    "original_sha256": "c9e8e536ba0f4c38b134850457406560decbed05a32dc95a610fcabf0a717f52",
+    "bundled_sha256": "c9e8e536ba0f4c38b134850457406560decbed05a32dc95a610fcabf0a717f52",
+    "changes": []
+  },
+  {
+    "file": "scripts/fixed_rhythms.py",
+    "original_sha256": "8decabde0455bea10fdc6513508e78d0e5c01f160e428cfcd37eca46bd988c0f",
+    "bundled_sha256": "8decabde0455bea10fdc6513508e78d0e5c01f160e428cfcd37eca46bd988c0f",
+    "changes": []
+  },
+  {
+    "file": "scripts/fixed_tune.py",
+    "original_sha256": "5f8073710e22ee46e028c4398d87fde5fa2cbc24c557f770ff7d51301cdbe3cc",
+    "bundled_sha256": "5f8073710e22ee46e028c4398d87fde5fa2cbc24c557f770ff7d51301cdbe3cc",
+    "changes": []
+  },
+  {
+    "file": "scripts/formal_rules.py",
+    "original_sha256": "22e7a9492ba6e75cb37188d4e91a348c7f3ec35d6ef680d46e11b440dfe5de2f",
+    "bundled_sha256": "39afccd3f5b3afe080224c1ebec67b6ce7de3e967a3bb7c2c0669819d6149595",
+    "changes": [
+      "filesystem paths only"
+    ]
+  },
+  {
+    "file": "scripts/gpt_rate_gate.py",
+    "original_sha256": "4aa3ded379955e0949821c073f6f740b32cc3387bef9de210ec3743e6792b8ff",
+    "bundled_sha256": "4aa3ded379955e0949821c073f6f740b32cc3387bef9de210ec3743e6792b8ff",
+    "changes": []
+  },
+  {
+    "file": "scripts/guard_slot.py",
+    "original_sha256": "80e32e3aceff4bda7d6cbf75659e9e808ef75ccc6133ff395676e17210fc480c",
+    "bundled_sha256": "80e32e3aceff4bda7d6cbf75659e9e808ef75ccc6133ff395676e17210fc480c",
+    "changes": []
+  },
+  {
+    "file": "scripts/hard2_rules.py",
+    "original_sha256": "df63331fe6418ab3f21e266eeedbb7b3e41c12a736238d28f5f7a819e3bc2222",
+    "bundled_sha256": "df63331fe6418ab3f21e266eeedbb7b3e41c12a736238d28f5f7a819e3bc2222",
+    "changes": []
+  },
+  {
+    "file": "scripts/hard3_rules.py",
+    "original_sha256": "4fde23e7e99260304761bbec98f8bda7dbdd56bb4dd395f7dfed302a6037318a",
+    "bundled_sha256": "4fde23e7e99260304761bbec98f8bda7dbdd56bb4dd395f7dfed302a6037318a",
+    "changes": []
+  },
+  {
+    "file": "scripts/hard5_rules.py",
+    "original_sha256": "50d36d9d9075faf64df95c9b70fae05dad76400d09207a4b717c342ff0dbc5d3",
+    "bundled_sha256": "50d36d9d9075faf64df95c9b70fae05dad76400d09207a4b717c342ff0dbc5d3",
+    "changes": []
+  },
+  {
+    "file": "scripts/map_difficulty.py",
+    "original_sha256": "cff5858d64aef40185856006c380ba78e9229ffe1e66711baac0705c236aebce",
+    "bundled_sha256": "cff5858d64aef40185856006c380ba78e9229ffe1e66711baac0705c236aebce",
+    "changes": []
+  },
+  {
+    "file": "scripts/openrouter_backend.py",
+    "original_sha256": "b8d6c5366ce22bbeed0caa63be5466807cbed1daaefabeae17fe64c18c1a05dc",
+    "bundled_sha256": "b8d6c5366ce22bbeed0caa63be5466807cbed1daaefabeae17fe64c18c1a05dc",
+    "changes": []
+  },
+  {
+    "file": "scripts/penalty_ladder.py",
+    "original_sha256": "3dc2db30ada3bc2252304507bdbfed2e79c20a922bfe70e13bd85196a923a43f",
+    "bundled_sha256": "3dc2db30ada3bc2252304507bdbfed2e79c20a922bfe70e13bd85196a923a43f",
+    "changes": []
+  },
+  {
+    "file": "scripts/proto_camp.py",
+    "original_sha256": "25be37e6735b70755ccd83a925ce408bde59abb5ab2ab7fb921ee8291048275c",
+    "bundled_sha256": "25be37e6735b70755ccd83a925ce408bde59abb5ab2ab7fb921ee8291048275c",
+    "changes": []
+  },
+  {
+    "file": "scripts/proto_play.py",
+    "original_sha256": "62b314b9733f151002385aff0c0b2a146fe6847194fcadf8a3cdeb21f04add81",
+    "bundled_sha256": "62b314b9733f151002385aff0c0b2a146fe6847194fcadf8a3cdeb21f04add81",
+    "changes": []
+  },
+  {
+    "file": "scripts/proto_text.py",
+    "original_sha256": "ead7bdef1be75506a9c1e6073d4d0e461b00dda8f64a9cc92b0c52b9b8cffff2",
+    "bundled_sha256": "ead7bdef1be75506a9c1e6073d4d0e461b00dda8f64a9cc92b0c52b9b8cffff2",
+    "changes": []
+  },
+  {
+    "file": "scripts/proto_world.py",
+    "original_sha256": "95d656f0f71f763cb87f382f6662da9d09ef1cbd5058720fb2cbc4d61e60232f",
+    "bundled_sha256": "95d656f0f71f763cb87f382f6662da9d09ef1cbd5058720fb2cbc4d61e60232f",
+    "changes": []
+  },
+  {
+    "file": "scripts/proto_worlds.py",
+    "original_sha256": "75c826bc57561cfd24bc742dd46f588cc6fa3f073ab080c47e72e6a699d514cb",
+    "bundled_sha256": "75c826bc57561cfd24bc742dd46f588cc6fa3f073ab080c47e72e6a699d514cb",
+    "changes": []
+  },
+  {
+    "file": "scripts/proto_worlds_amend1.json",
+    "original_sha256": "91eda57fe4434abd206e0a22ba5987a77491d783eddf197d6fb512b227e96803",
+    "bundled_sha256": "91eda57fe4434abd206e0a22ba5987a77491d783eddf197d6fb512b227e96803",
+    "changes": []
+  },
+  {
+    "file": "scripts/proto_worlds_amend5.json",
+    "original_sha256": "76eb552226f62153ddc7d6043cd60c6c931caa7898cf9c5d9c6234e32fab05c5",
+    "bundled_sha256": "76eb552226f62153ddc7d6043cd60c6c931caa7898cf9c5d9c6234e32fab05c5",
+    "changes": []
+  },
+  {
+    "file": "scripts/proto_worlds_amend5b.json",
+    "original_sha256": "cb1be68b89236e6375f53f27431a1213f85d545493870b91bcc3982a87708915",
+    "bundled_sha256": "cb1be68b89236e6375f53f27431a1213f85d545493870b91bcc3982a87708915",
+    "changes": []
+  },
+  {
+    "file": "scripts/r1v2.py",
+    "original_sha256": "c6172961b7a6ec30225f7d465cff28b0107d666638fd307558d47f969c01dd4c",
+    "bundled_sha256": "c6172961b7a6ec30225f7d465cff28b0107d666638fd307558d47f969c01dd4c",
+    "changes": []
+  },
+  {
+    "file": "scripts/reasoning_capture.py",
+    "original_sha256": "7bdd3f5a4e2e8bd27a67359efaba1937620ada598c817c5e9dcab1f3b043c6ad",
+    "bundled_sha256": "7bdd3f5a4e2e8bd27a67359efaba1937620ada598c817c5e9dcab1f3b043c6ad",
+    "changes": []
+  },
+  {
+    "file": "scripts/regsel.py",
+    "original_sha256": "fe00c24e0161c9f3ee3a5e39a9c292b6ee7ad863dade3d53570e423655cd301c",
+    "bundled_sha256": "fe00c24e0161c9f3ee3a5e39a9c292b6ee7ad863dade3d53570e423655cd301c",
+    "changes": []
+  },
+  {
+    "file": "scripts/search4.py",
+    "original_sha256": "709a5db8fd2a75a744dbf4f2fec5319e50d92a19025ec6919df325587dfc76f0",
+    "bundled_sha256": "709a5db8fd2a75a744dbf4f2fec5319e50d92a19025ec6919df325587dfc76f0",
+    "changes": []
+  },
+  {
+    "file": "scripts/shortcut_screen.py",
+    "original_sha256": "ecb151ddeb820a2931d99bf8c05859738a4358e189395e229e653ae55fb80c0d",
+    "bundled_sha256": "ecb151ddeb820a2931d99bf8c05859738a4358e189395e229e653ae55fb80c0d",
+    "changes": []
+  },
+  {
+    "file": "scripts/study_models.py",
+    "original_sha256": "6445c244d24d1f636486a5dcd6d476fe545d2c59ed757690fc00a7e58b83075c",
+    "bundled_sha256": "6445c244d24d1f636486a5dcd6d476fe545d2c59ed757690fc00a7e58b83075c",
+    "changes": []
+  },
+  {
+    "file": "scripts/tier_rules.py",
+    "original_sha256": "b2275a58146f586f71b70177aa343b896cd738c6103a64eb33b8acda177f225a",
+    "bundled_sha256": "b2275a58146f586f71b70177aa343b896cd738c6103a64eb33b8acda177f225a",
+    "changes": []
+  },
+  {
+    "file": "scripts/value_habits.py",
+    "original_sha256": "a5b869295e41d35eb720e1a57c6e07098316f513d5ee459059642acbf7cba4eb",
+    "bundled_sha256": "a5b869295e41d35eb720e1a57c6e07098316f513d5ee459059642acbf7cba4eb",
+    "changes": []
+  },
+  {
+    "file": "scripts/work_note.py",
+    "original_sha256": "99b67e59879336750b37266d1731d25be89ac9e657cc55be9e73090be99196c0",
+    "bundled_sha256": "99b67e59879336750b37266d1731d25be89ac9e657cc55be9e73090be99196c0",
+    "changes": []
+  },
+  {
+    "file": "scripts/world_pack_runtime.py",
+    "original_sha256": "ba6faecf504ce53845d65d5625fd8931448708cca380876a2217286c0e2a9079",
+    "bundled_sha256": "ba6faecf504ce53845d65d5625fd8931448708cca380876a2217286c0e2a9079",
+    "changes": []
+  }
+]

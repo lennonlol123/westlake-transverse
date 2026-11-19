@@ -1,0 +1,736 @@
+{
+  "version": 1,
+  "note": "Monster appearance and name are assigned at random per Encounter, independent of the hidden mechanism.",
+  "worlds": [
+    {
+      "world": "forest",
+      "universe": 1,
+      "backdrop": "forest/backdrop.svg",
+      "theme": {
+        "ground": "#E8EFE0",
+        "ink": "#22301A",
+        "sub": "#4A5A3A",
+        "accent": "#5E7A3A",
+        "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&amp;family=IBM+Plex+Mono:wght@400&amp;display=swap",
+        "body": "'Fraunces', Georgia, serif",
+        "display": "'Fraunces', Georgia, serif",
+        "mono": "'IBM Plex Mono', monospace",
+        "panel": "background: #FAFCF6; border: 1.5px solid #B9C9A0; border-radius: 12px",
+        "btn": "border: 1.5px solid #B9C9A0; border-radius: 10px; background: #FFFFFF",
+        "field": "border: 1.5px solid #B9C9A0; border-radius: 10px; background: #FFFFFF",
+        "endBtn": "border: none; border-radius: 10px; background: #5E7A3A; color: #FFFFFF",
+        "rule": "1.5px solid #B9C9A0",
+        "sceneBox": "border-radius: 12px; border: 1.5px solid #B9C9A0; background: #E3EAD3",
+        "tag": "background: rgba(250,252,246,0.94); border: 1.5px solid #B9C9A0; border-radius: 8px; color: #22301A",
+        "card": "border: 1.5px solid #B9C9A0; border-radius: 12px; background: #FFFFFF; color: #22301A",
+        "cardSel": "border: 2px solid #5E7A3A; border-radius: 12px; background: #EEF4E4; color: #22301A"
+      },
+      "monsters": [
+        {
+          "id": "forest-01",
+          "file": "forest/monsters/01-walking-stump.svg",
+          "design_name": "Walking stump",
+          "display_name": "Stoun Laskum"
+        },
+        {
+          "id": "forest-02",
+          "file": "forest/monsters/02-mushroom-beast.svg",
+          "design_name": "Mushroom beast",
+          "display_name": "Brell Moth"
+        },
+        {
+          "id": "forest-03",
+          "file": "forest/monsters/03-vine-serpent.svg",
+          "design_name": "Vine serpent",
+          "display_name": "Oggin Fask"
+        },
+        {
+          "id": "forest-04",
+          "file": "forest/monsters/04-moss-boar.svg",
+          "design_name": "Moss boar",
+          "display_name": "Velp Arra"
+        },
+        {
+          "id": "forest-05",
+          "file": "forest/monsters/05-stag-spirit-with-branch-antlers.svg",
+          "design_name": "Stag spirit with branch antlers",
+          "display_name": "Hart Vellum"
+        },
+        {
+          "id": "forest-06",
+          "file": "forest/monsters/06-owl-of-bark-and-leaves.svg",
+          "design_name": "Owl of bark and leaves",
+          "display_name": "Brannoc Ule"
+        },
+        {
+          "id": "forest-07",
+          "file": "forest/monsters/07-moss-backed-beetle.svg",
+          "design_name": "Moss-backed beetle",
+          "display_name": "Moskel Tarr"
+        },
+        {
+          "id": "forest-08",
+          "file": "forest/monsters/08-fox-with-a-fern-tail.svg",
+          "design_name": "Fox with a fern tail",
+          "display_name": "Ferrin Rusk"
+        },
+        {
+          "id": "forest-09",
+          "file": "forest/monsters/09-frog-on-lily-stem-legs.svg",
+          "design_name": "Frog on lily-stem legs",
+          "display_name": "Pilla Wend"
+        },
+        {
+          "id": "forest-10",
+          "file": "forest/monsters/10-hedgehog-with-pinecone-spines.svg",
+          "design_name": "Hedgehog with pinecone spines",
+          "display_name": "Spinda Cone"
+        },
+        {
+          "id": "forest-11",
+          "file": "forest/monsters/11-bear-of-roots-and-stones.svg",
+          "design_name": "Bear of roots and stones",
+          "display_name": "Grumm Oaker"
+        },
+        {
+          "id": "forest-12",
+          "file": "forest/monsters/12-moth-with-leaf-wings.svg",
+          "design_name": "Moth with leaf wings",
+          "display_name": "Veyla Mott"
+        },
+        {
+          "id": "forest-13",
+          "file": "forest/monsters/13-snail-with-a-bark-cottage.svg",
+          "design_name": "Snail with a bark cottage",
+          "display_name": "Hollin Drewe"
+        },
+        {
+          "id": "forest-14",
+          "file": "forest/monsters/14-badger-in-a-flower-crown.svg",
+          "design_name": "Badger in a flower crown",
+          "display_name": "Pellin Brock"
+        },
+        {
+          "id": "forest-15",
+          "file": "forest/monsters/15-heron-woven-from-reeds.svg",
+          "design_name": "Heron woven from reeds",
+          "display_name": "Reed Assin"
+        },
+        {
+          "id": "forest-16",
+          "file": "forest/monsters/16-turtle-with-a-sapling-on-its-shell.svg",
+          "design_name": "Turtle with a sapling on its shell",
+          "display_name": "Stoneshell Ord"
+        },
+        {
+          "id": "forest-17",
+          "file": "forest/monsters/17-giant-squirrel-with-acorns.svg",
+          "design_name": "Giant squirrel with acorns",
+          "display_name": "Nutkin Ravel"
+        },
+        {
+          "id": "forest-18",
+          "file": "forest/monsters/18-lantern-eyed-lizard-on-a-branch.svg",
+          "design_name": "Lantern-eyed lizard on a branch",
+          "display_name": "Glint Ashwick"
+        },
+        {
+          "id": "forest-19",
+          "file": "forest/monsters/19-deer-of-woven-ivy-and-twigs.svg",
+          "design_name": "Deer of woven ivy and twigs",
+          "display_name": "Ivyn Dale"
+        },
+        {
+          "id": "forest-20",
+          "file": "forest/monsters/20-cloud-of-fireflies.svg",
+          "design_name": "Cloud of fireflies",
+          "display_name": "Lumi Hessa"
+        }
+      ]
+    },
+    {
+      "world": "noir",
+      "universe": 2,
+      "backdrop": "noir/backdrop.svg",
+      "theme": {
+        "ground": "#EFEFEF",
+        "ink": "#111111",
+        "sub": "#3A3A3A",
+        "accent": "#C8102E",
+        "fonts": "https://fonts.googleapis.com/css2?family=Bangers&amp;family=IBM+Plex+Mono:wght@400;600&amp;display=swap",
+        "body": "'IBM Plex Mono', monospace",
+        "display": "'Bangers', Impact, sans-serif",
+        "mono": "'IBM Plex Mono', monospace",
+        "panel": "background: #FFFFFF; border: 3px solid #111111",
+        "btn": "border: 3px solid #111111; background: #FFFFFF",
+        "field": "border: 3px solid #111111; background: #FFFFFF",
+        "endBtn": "border: 3px solid #111111; background: #C8102E; color: #FFFFFF",
+        "rule": "3px solid #111111",
+        "sceneBox": "border: 3px solid #111111; background: #FFFFFF",
+        "tag": "background: #FFFFFF; border: 3px solid #111111; color: #111111",
+        "card": "border: 3px solid #111111; background: #FFFFFF; color: #111111",
+        "cardSel": "border: 3px solid #111111; background: #111111; color: #FFFFFF"
+      },
+      "monsters": [
+        {
+          "id": "noir-01",
+          "file": "noir/monsters/01-trench-coat-phantom.svg",
+          "design_name": "Trench-coat phantom",
+          "display_name": "Vell Marrow"
+        },
+        {
+          "id": "noir-02",
+          "file": "noir/monsters/02-shadow-hound.svg",
+          "design_name": "Shadow hound",
+          "display_name": "Kade Spurn"
+        },
+        {
+          "id": "noir-03",
+          "file": "noir/monsters/03-rooftop-gargoyle.svg",
+          "design_name": "Rooftop gargoyle",
+          "display_name": "Roth Vinny"
+        },
+        {
+          "id": "noir-04",
+          "file": "noir/monsters/04-smoke-wraith.svg",
+          "design_name": "Smoke wraith",
+          "display_name": "Lux Hollow"
+        },
+        {
+          "id": "noir-05",
+          "file": "noir/monsters/05-lamp-post-crow.svg",
+          "design_name": "Lamp-post crow",
+          "display_name": "Ossa Crane"
+        },
+        {
+          "id": "noir-06",
+          "file": "noir/monsters/06-stilt-walker-with-a-broken-umbrella.svg",
+          "design_name": "Stilt walker with a broken umbrella",
+          "display_name": "Pim Talloway"
+        },
+        {
+          "id": "noir-07",
+          "file": "noir/monsters/07-alley-cat-arched-back.svg",
+          "design_name": "Alley cat, arched back",
+          "display_name": "Grey Mallen"
+        },
+        {
+          "id": "noir-08",
+          "file": "noir/monsters/08-long-armed-figure-collar-up.svg",
+          "design_name": "Long-armed figure, collar up",
+          "display_name": "Dorn Vasser"
+        },
+        {
+          "id": "noir-09",
+          "file": "noir/monsters/09-giant-street-rat.svg",
+          "design_name": "Giant street rat",
+          "display_name": "Skiv Rendle"
+        },
+        {
+          "id": "noir-10",
+          "file": "noir/monsters/10-fire-escape-spider.svg",
+          "design_name": "Fire-escape spider",
+          "display_name": "Wick Hollis"
+        },
+        {
+          "id": "noir-11",
+          "file": "noir/monsters/11-masked-figure-scarf-in-the-wind.svg",
+          "design_name": "Masked figure, scarf in the wind",
+          "display_name": "Cass Merrow"
+        },
+        {
+          "id": "noir-12",
+          "file": "noir/monsters/12-swarm-of-bats-in-one-shape.svg",
+          "design_name": "Swarm of bats in one shape",
+          "display_name": "Brann Fell"
+        },
+        {
+          "id": "noir-13",
+          "file": "noir/monsters/13-wooden-dummy-with-a-hinged-jaw.svg",
+          "design_name": "Wooden dummy with a hinged jaw",
+          "display_name": "Tobb Larrick"
+        },
+        {
+          "id": "noir-14",
+          "file": "noir/monsters/14-sewer-crocodile.svg",
+          "design_name": "Sewer crocodile",
+          "display_name": "Mire Doss"
+        },
+        {
+          "id": "noir-15",
+          "file": "noir/monsters/15-headlight-moth.svg",
+          "design_name": "Headlight moth",
+          "display_name": "Lumen Hask"
+        },
+        {
+          "id": "noir-16",
+          "file": "noir/monsters/16-figure-of-torn-newspaper.svg",
+          "design_name": "Figure of torn newspaper",
+          "display_name": "Page Collier"
+        },
+        {
+          "id": "noir-17",
+          "file": "noir/monsters/17-hunched-bellhop.svg",
+          "design_name": "Hunched bellhop",
+          "display_name": "Fenn Garlow"
+        },
+        {
+          "id": "noir-18",
+          "file": "noir/monsters/18-octopus-from-a-manhole.svg",
+          "design_name": "Octopus from a manhole",
+          "display_name": "Kell Dunmore"
+        },
+        {
+          "id": "noir-19",
+          "file": "noir/monsters/19-marionette-with-cut-strings.svg",
+          "design_name": "Marionette with cut strings",
+          "display_name": "Lute Abbett"
+        },
+        {
+          "id": "noir-20",
+          "file": "noir/monsters/20-tall-figure-in-a-top-hat.svg",
+          "design_name": "Tall figure in a top hat",
+          "display_name": "Hale Strand"
+        }
+      ]
+    },
+    {
+      "world": "woodblock",
+      "universe": 3,
+      "backdrop": "woodblock/backdrop.svg",
+      "theme": {
+        "ground": "#F1E6CF",
+        "ink": "#1E3550",
+        "sub": "#3C4E66",
+        "accent": "#B33A2B",
+        "fonts": "https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;800&amp;family=IBM+Plex+Mono:wght@400&amp;display=swap",
+        "body": "'Shippori Mincho', serif",
+        "display": "'Shippori Mincho', serif",
+        "mono": "'IBM Plex Mono', monospace",
+        "panel": "background: #FBF5E6; border: 2px solid #1E3550",
+        "btn": "border: 2px solid #1E3550; background: #FBF5E6",
+        "field": "border: 2px solid #1E3550; background: #FFFDF6",
+        "endBtn": "border: none; background: #B33A2B; color: #FFFFFF",
+        "rule": "2px solid #1E3550",
+        "sceneBox": "border: 2px solid #1E3550; background: #F1E3C4",
+        "tag": "background: #FBF5E6; border: 2px solid #1E3550; color: #1E3550",
+        "card": "border: 2px solid #1E3550; background: #FFFDF6; color: #1E3550",
+        "cardSel": "border: 2px solid #1E3550; background: #1E3550; color: #FBF5E6"
+      },
+      "monsters": [
+        {
+          "id": "woodblock-01",
+          "file": "woodblock/monsters/01-yamata-no-orochi.svg",
+          "design_name": "Eight-headed serpent · Yamata no Orochi",
+          "display_name": "Hosk Varrin"
+        },
+        {
+          "id": "woodblock-02",
+          "file": "woodblock/monsters/02-tengu.svg",
+          "design_name": "Mountain goblin · Tengu",
+          "display_name": "Teru Mosh"
+        },
+        {
+          "id": "woodblock-03",
+          "file": "woodblock/monsters/03-kappa.svg",
+          "design_name": "River imp · Kappa",
+          "display_name": "Akka Dren"
+        },
+        {
+          "id": "woodblock-04",
+          "file": "woodblock/monsters/04-karakasa-obake.svg",
+          "design_name": "Umbrella spirit · Karakasa-obake",
+          "display_name": "Sorin Pell"
+        },
+        {
+          "id": "woodblock-05",
+          "file": "woodblock/monsters/05-kyubi-no-kitsune.svg",
+          "design_name": "Nine-tailed fox · Kyubi no kitsune",
+          "display_name": "Kiyo Saren"
+        },
+        {
+          "id": "woodblock-06",
+          "file": "woodblock/monsters/06-nue.svg",
+          "design_name": "Chimera · Nue",
+          "display_name": "Garo Muen"
+        },
+        {
+          "id": "woodblock-07",
+          "file": "woodblock/monsters/07-tanuki.svg",
+          "design_name": "Raccoon dog · Tanuki",
+          "display_name": "Ponta Ruge"
+        },
+        {
+          "id": "woodblock-08",
+          "file": "woodblock/monsters/08-rokurokubi.svg",
+          "design_name": "Long-necked woman · Rokurokubi",
+          "display_name": "Oyuki Natsu"
+        },
+        {
+          "id": "woodblock-09",
+          "file": "woodblock/monsters/09-nurikabe.svg",
+          "design_name": "Living wall · Nurikabe",
+          "display_name": "Hekira Dom"
+        },
+        {
+          "id": "woodblock-10",
+          "file": "woodblock/monsters/10-umibozu.svg",
+          "design_name": "Sea monk · Umibozu",
+          "display_name": "Kuro Nadi"
+        },
+        {
+          "id": "woodblock-11",
+          "file": "woodblock/monsters/11-kamaitachi.svg",
+          "design_name": "Whirlwind weasel · Kamaitachi",
+          "display_name": "Kaze Ritsu"
+        },
+        {
+          "id": "woodblock-12",
+          "file": "woodblock/monsters/12-tsuchigumo.svg",
+          "design_name": "Earth spider · Tsuchigumo",
+          "display_name": "Dorogu Shin"
+        },
+        {
+          "id": "woodblock-13",
+          "file": "woodblock/monsters/13-baku.svg",
+          "design_name": "Dream eater · Baku",
+          "display_name": "Yume Bakko"
+        },
+        {
+          "id": "woodblock-14",
+          "file": "woodblock/monsters/14-aka-oni.svg",
+          "design_name": "Red ogre · Aka-oni",
+          "display_name": "Akagane Bo"
+        },
+        {
+          "id": "woodblock-15",
+          "file": "woodblock/monsters/15-hitotsume-kozo.svg",
+          "design_name": "One-eyed boy · Hitotsume-kozo",
+          "display_name": "Ichime Kou"
+        },
+        {
+          "id": "woodblock-16",
+          "file": "woodblock/monsters/16-ittan-momen.svg",
+          "design_name": "Flying cloth · Ittan-momen",
+          "display_name": "Shirono Hata"
+        },
+        {
+          "id": "woodblock-17",
+          "file": "woodblock/monsters/17-bakeneko.svg",
+          "design_name": "Two-tailed cat · Bakeneko",
+          "display_name": "Mike Torane"
+        },
+        {
+          "id": "woodblock-18",
+          "file": "woodblock/monsters/18-ushi-oni.svg",
+          "design_name": "Bull-headed spider · Ushi-oni",
+          "display_name": "Gyuma Kotsu"
+        },
+        {
+          "id": "woodblock-19",
+          "file": "woodblock/monsters/19-namazu.svg",
+          "design_name": "Giant catfish · Namazu",
+          "display_name": "Jishin Ogi"
+        },
+        {
+          "id": "woodblock-20",
+          "file": "woodblock/monsters/20-raiju.svg",
+          "design_name": "Thunder beast · Raiju",
+          "display_name": "Ikazu Kurai"
+        }
+      ]
+    },
+    {
+      "world": "astronomy",
+      "universe": 4,
+      "backdrop": "astronomy/backdrop.svg",
+      "theme": {
+        "ground": "#F2ECDC",
+        "ink": "#2B2318",
+        "sub": "#5C4A30",
+        "accent": "#8A5A1E",
+        "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&amp;family=IBM+Plex+Mono:wght@400&amp;display=swap",
+        "body": "'Cormorant Garamond', Georgia, serif",
+        "display": "'Cormorant Garamond', Georgia, serif",
+        "mono": "'IBM Plex Mono', monospace",
+        "panel": "background: #FBF7EC; border: 1px solid #B89C64; outline: 1px solid #E2D3AE; outline-offset: -5px",
+        "btn": "border: 1px solid #B89C64; background: #FBF7EC",
+        "field": "border: 1px solid #B89C64; background: #FFFDF6",
+        "endBtn": "border: 1px solid #6E4A16; background: #8A5A1E; color: #FFFFFF",
+        "rule": "1px solid #B89C64",
+        "sceneBox": "border: 1px solid #B89C64; background: #1D2340",
+        "tag": "background: #FBF7EC; border: 1px solid #B89C64; color: #2B2318",
+        "card": "border: 1px solid #B89C64; background: #FFFDF6; color: #2B2318",
+        "cardSel": "border: 2px solid #8A5A1E; background: #F4EAD4; color: #2B2318"
+      },
+      "monsters": [
+        {
+          "id": "astronomy-01",
+          "file": "astronomy/monsters/01-ram-constellation.svg",
+          "design_name": "Ram constellation",
+          "display_name": "Orrin Valt"
+        },
+        {
+          "id": "astronomy-02",
+          "file": "astronomy/monsters/02-scorpion-constellation.svg",
+          "design_name": "Scorpion constellation",
+          "display_name": "Sel Amaru"
+        },
+        {
+          "id": "astronomy-03",
+          "file": "astronomy/monsters/03-orrery-automaton.svg",
+          "design_name": "Orrery automaton",
+          "display_name": "Quell Doran"
+        },
+        {
+          "id": "astronomy-04",
+          "file": "astronomy/monsters/04-comet-serpent.svg",
+          "design_name": "Comet serpent",
+          "display_name": "Ixa Ferro"
+        },
+        {
+          "id": "astronomy-05",
+          "file": "astronomy/monsters/05-great-bear-constellation.svg",
+          "design_name": "Great bear constellation",
+          "display_name": "Ursa Maldon"
+        },
+        {
+          "id": "astronomy-06",
+          "file": "astronomy/monsters/06-swan-constellation-wings-spread.svg",
+          "design_name": "Swan constellation, wings spread",
+          "display_name": "Cygna Velle"
+        },
+        {
+          "id": "astronomy-07",
+          "file": "astronomy/monsters/07-lion-constellation.svg",
+          "design_name": "Lion constellation",
+          "display_name": "Leor Antha"
+        },
+        {
+          "id": "astronomy-08",
+          "file": "astronomy/monsters/08-sea-monster-constellation.svg",
+          "design_name": "Sea-monster constellation",
+          "display_name": "Ketos Drame"
+        },
+        {
+          "id": "astronomy-09",
+          "file": "astronomy/monsters/09-hare-constellation-mid-leap.svg",
+          "design_name": "Hare constellation, mid-leap",
+          "display_name": "Lepra Swift"
+        },
+        {
+          "id": "astronomy-10",
+          "file": "astronomy/monsters/10-crab-constellation.svg",
+          "design_name": "Crab constellation",
+          "display_name": "Cancra Doll"
+        },
+        {
+          "id": "astronomy-11",
+          "file": "astronomy/monsters/11-winding-dragon-constellation.svg",
+          "design_name": "Winding dragon constellation",
+          "display_name": "Draco Vennel"
+        },
+        {
+          "id": "astronomy-12",
+          "file": "astronomy/monsters/12-diving-eagle-constellation.svg",
+          "design_name": "Diving eagle constellation",
+          "display_name": "Aquila Ren"
+        },
+        {
+          "id": "astronomy-13",
+          "file": "astronomy/monsters/13-astrolabe-golem.svg",
+          "design_name": "Astrolabe golem",
+          "display_name": "Astra Gimbal"
+        },
+        {
+          "id": "astronomy-14",
+          "file": "astronomy/monsters/14-alchemical-salamander-of-gold-flames.svg",
+          "design_name": "Alchemical salamander of gold flames",
+          "display_name": "Ignis Pellam"
+        },
+        {
+          "id": "astronomy-15",
+          "file": "astronomy/monsters/15-homunculus-in-a-glass-flask.svg",
+          "design_name": "Homunculus in a glass flask",
+          "display_name": "Hom Pellicle"
+        },
+        {
+          "id": "astronomy-16",
+          "file": "astronomy/monsters/16-ouroboros-serpent.svg",
+          "design_name": "Ouroboros serpent",
+          "display_name": "Ourin Clasp"
+        },
+        {
+          "id": "astronomy-17",
+          "file": "astronomy/monsters/17-armillary-sphere-spider.svg",
+          "design_name": "Armillary-sphere spider",
+          "display_name": "Arma Spinnel"
+        },
+        {
+          "id": "astronomy-18",
+          "file": "astronomy/monsters/18-owl-with-star-dusted-feathers.svg",
+          "design_name": "Owl with star-dusted feathers",
+          "display_name": "Noct Halden"
+        },
+        {
+          "id": "astronomy-19",
+          "file": "astronomy/monsters/19-crane-with-telescope-legs.svg",
+          "design_name": "Crane with telescope legs",
+          "display_name": "Telo Craning"
+        },
+        {
+          "id": "astronomy-20",
+          "file": "astronomy/monsters/20-meteor-hound.svg",
+          "design_name": "Meteor hound",
+          "display_name": "Fallow Ember"
+        }
+      ]
+    },
+    {
+      "world": "toy",
+      "universe": 5,
+      "backdrop": "toy/backdrop.svg",
+      "theme": {
+        "ground": "#F1EDE4",
+        "ink": "#262626",
+        "sub": "#5A5650",
+        "accent": "#D9482B",
+        "fonts": "https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&amp;family=IBM+Plex+Mono:wght@400&amp;display=swap",
+        "body": "'Rubik', sans-serif",
+        "display": "'Rubik', sans-serif",
+        "mono": "'IBM Plex Mono', monospace",
+        "panel": "background: #FFFFFF; border: 2px solid #DDD6C8; border-radius: 14px; box-shadow: 0 3px 0 #DDD6C8",
+        "btn": "border: 2px solid #DDD6C8; border-radius: 10px; background: #FFFFFF; box-shadow: 0 2px 0 #DDD6C8",
+        "field": "border: 2px solid #DDD6C8; border-radius: 10px; background: #FFFFFF",
+        "endBtn": "border: none; border-radius: 10px; background: #D9482B; color: #FFFFFF; box-shadow: 0 3px 0 #9E3420",
+        "rule": "2px solid #EEE8DC",
+        "sceneBox": "border-radius: 14px; border: 2px solid #DDD6C8; background: #F7F3EA",
+        "tag": "background: #FFFFFF; border: 2px solid #DDD6C8; border-radius: 8px; color: #262626",
+        "card": "border: 2px solid #DDD6C8; border-radius: 10px; background: #FFFFFF; color: #262626; box-shadow: 0 3px 0 #DDD6C8",
+        "cardSel": "border: 2px solid #9E3420; border-radius: 10px; background: #D9482B; color: #FFFFFF; box-shadow: 0 3px 0 #9E3420"
+      },
+      "monsters": [
+        {
+          "id": "toy-01",
+          "file": "toy/monsters/01-wind-up-robot.svg",
+          "design_name": "Wind-up robot",
+          "display_name": "Brik Tumbel"
+        },
+        {
+          "id": "toy-02",
+          "file": "toy/monsters/02-jack-in-the-box.svg",
+          "design_name": "Jack-in-the-box",
+          "display_name": "Zoo Pikk"
+        },
+        {
+          "id": "toy-03",
+          "file": "toy/monsters/03-brick-dragon.svg",
+          "design_name": "Brick dragon",
+          "display_name": "Dinga Rolt"
+        },
+        {
+          "id": "toy-04",
+          "file": "toy/monsters/04-rubber-duck-tank.svg",
+          "design_name": "Rubber-duck tank",
+          "display_name": "Mott Kesper"
+        },
+        {
+          "id": "toy-05",
+          "file": "toy/monsters/05-spinning-top.svg",
+          "design_name": "Spinning top",
+          "display_name": "Whirla Spinn"
+        },
+        {
+          "id": "toy-06",
+          "file": "toy/monsters/06-rocking-horse.svg",
+          "design_name": "Rocking horse",
+          "display_name": "Dobbin Rocke"
+        },
+        {
+          "id": "toy-07",
+          "file": "toy/monsters/07-tin-fish-on-wheels.svg",
+          "design_name": "Tin fish on wheels",
+          "display_name": "Fizzle Carp"
+        },
+        {
+          "id": "toy-08",
+          "file": "toy/monsters/08-toy-drummer.svg",
+          "design_name": "Toy drummer",
+          "display_name": "Tappet Rolle"
+        },
+        {
+          "id": "toy-09",
+          "file": "toy/monsters/09-teddy-bear.svg",
+          "design_name": "Teddy bear",
+          "display_name": "Benno Plush"
+        },
+        {
+          "id": "toy-10",
+          "file": "toy/monsters/10-yo-yo-spider.svg",
+          "design_name": "Yo-yo spider",
+          "display_name": "Yoyo Skitter"
+        },
+        {
+          "id": "toy-11",
+          "file": "toy/monsters/11-race-car-with-eyes.svg",
+          "design_name": "Race car with eyes",
+          "display_name": "Vroomm Kade"
+        },
+        {
+          "id": "toy-12",
+          "file": "toy/monsters/12-squeeze-toy-octopus.svg",
+          "design_name": "Squeeze-toy octopus",
+          "display_name": "Squish Ottel"
+        },
+        {
+          "id": "toy-13",
+          "file": "toy/monsters/13-plush-dinosaur.svg",
+          "design_name": "Plush dinosaur",
+          "display_name": "Rexi Puddle"
+        },
+        {
+          "id": "toy-14",
+          "file": "toy/monsters/14-toy-train-engine-with-a-face.svg",
+          "design_name": "Toy train engine with a face",
+          "display_name": "Chuff Merrin"
+        },
+        {
+          "id": "toy-15",
+          "file": "toy/monsters/15-kite-creature.svg",
+          "design_name": "Kite creature",
+          "display_name": "Kitewyn Sorr"
+        },
+        {
+          "id": "toy-16",
+          "file": "toy/monsters/16-toy-rocket.svg",
+          "design_name": "Toy rocket",
+          "display_name": "Zipp Orvan"
+        },
+        {
+          "id": "toy-17",
+          "file": "toy/monsters/17-nesting-doll.svg",
+          "design_name": "Nesting doll",
+          "display_name": "Matrena Bell"
+        },
+        {
+          "id": "toy-18",
+          "file": "toy/monsters/18-pull-along-dog.svg",
+          "design_name": "Pull-along dog",
+          "display_name": "Wagg Dooley"
+        },
+        {
+          "id": "toy-19",
+          "file": "toy/monsters/19-golem-of-stacked-blocks.svg",
+          "design_name": "Golem of stacked blocks",
+          "display_name": "Stacko Brumm"
+        },
+        {
+          "id": "toy-20",
+          "file": "toy/monsters/20-spring-worm.svg",
+          "design_name": "Spring worm",
+          "display_name": "Coily Rattan"
+        }
+      ]
+    }
+  ]
+}

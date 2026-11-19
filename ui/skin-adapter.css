@@ -1,0 +1,44 @@
+/* Preserve the existing grid, locations, gaps and dimensions. Uniform data typography. */
+body[data-universe] {
+  --w-bg:var(--tv-ground)!important; --w-panel:#fffdf7!important;
+  --w-ink:var(--tv-ink)!important; --w-muted:var(--tv-sub)!important;
+  --w-accent:var(--tv-accent)!important; --w-accent2:var(--tv-accent)!important;
+  --world-font:'TV Mono','Courier New',monospace!important;
+  --world-text-size:20px!important; --world-line-height:1.3!important;
+  --world-letter-spacing:0px!important;
+  --tv-font-mono:'TV Mono','Courier New',monospace;
+  --tv-font-body:Georgia,serif;
+}
+body[data-universe] .tv-value,body[data-universe] .tv-record,
+body[data-universe] input,body[data-universe] select,body[data-universe] textarea {
+  font-family:var(--tv-font-mono)!important;
+}
+body[data-universe] .tv-panel {box-shadow:none; border-width:3px;}
+body[data-universe] .hud-side,body[data-universe] .hud-turn {border-width:2px;}
+body[data-universe] .tv-button,body[data-universe] .tv-card {border-width:3px;border-style:solid;}
+body[data-universe] .tv-field {border-width:2px;}
+body[data-universe] #rawInput {border:0;}
+body[data-universe] .tv-scene {border-width:2px; background-size:cover; background-position:center bottom; background-repeat:no-repeat;}
+body[data-universe] .tv-scene>.world-backdrop {visibility:hidden;}
+body[data-universe] .tv-scene::after {box-shadow:none;}
+body[data-universe] .tv-tag {border:0; background:transparent; border-radius:0;}
+body[data-universe] .tv-value {font-size:20px;line-height:1.3;letter-spacing:0;color:#202020;}
+body[data-universe] .hud-side,body[data-universe] .hud-turn,
+body[data-universe] .tv-record,body[data-universe] .tv-card {background:#fffdf7!important;}
+body[data-universe] .hud-turn-n {font-size:34px;line-height:1;text-shadow:none;}
+body[data-universe] .tv-record pre {font:16px/1.4 var(--tv-font-mono);color:#202020;}
+body[data-universe] .card-art {color:var(--tv-accent);}
+body[data-universe] .tv-card:hover:not(:disabled),body[data-universe] .tv-card:focus-visible:not(:disabled) {outline:2px solid var(--tv-accent);outline-offset:1px;}
+body[data-universe] .tv-button:hover:not(:disabled) {color:var(--tv-ink);filter:brightness(.96);}
+body[data-universe] .dialogue {background:var(--tv-ground);border-color:var(--tv-accent);box-shadow:none;}
+body[data-universe] .dialogue.tv-feedback {
+  position:static;inset:auto;transform:none;flex:0 0 auto;
+  width:auto;max-height:180px;max-height:min(180px,25vh);
+  padding:10px 12px;margin:0;overflow:auto;
+  border-width:0 0 2px;border-radius:0;
+  background:#fffdf7;color:#202020;
+  font:16px/1.4 var(--tv-font-mono);letter-spacing:0;
+}
+body[data-universe] .tv-monster {width:100%;height:100%;object-fit:contain;image-rendering:auto;}
+body[data-universe] .brand-emblem {background:var(--tv-accent);box-shadow:none;}
+body[data-universe] .wordmark,body[data-universe] .title-word {text-shadow:none;}

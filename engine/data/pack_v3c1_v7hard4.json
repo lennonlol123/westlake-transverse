@@ -1,0 +1,4197 @@
+{
+ "kind": "proto13-pack-with-boss",
+ "rules": "proto13-world-rules-v3b-2026-11-05",
+ "version": "v3c1-pack-v7hard4-2026-11-14",
+ "heal": "off",
+ "cue_rule": {
+  "by_chain": {
+   "A": {
+    "1": "on",
+    "3": "on",
+    "6": "on",
+    "8": "on",
+    "2": "off",
+    "4": "off",
+    "5": "off",
+    "7": "off"
+   },
+   "B": {
+    "1": "off",
+    "3": "off",
+    "6": "off",
+    "8": "off",
+    "2": "on",
+    "4": "on",
+    "5": "on",
+    "7": "on"
+   }
+  },
+  "chain_rule": "chains are numbered from 1 per model and arm; odd = A, even = B (doc 50)",
+  "doc": "docs/antagonist_boss/50_cue_assignment.md"
+ },
+ "derived_from": {
+  "pack": "/Users/lennon/agii_runs/v3c1_pack/pack_v3c1_v7hard3.json",
+  "sha256": "8c30677423f792324330cbc0868d3c274e0d9f6adc163541de993e2bb56d9bde",
+  "version": "v3c1-pack-v7hard3-2026-11-14",
+  "builder": "scripts/pack_v7hard4_build.py",
+  "record": "docs/antagonist_boss/52_changelog.md (2026-11-14 night, world 3 second swap)",
+  "previous": {
+   "pack": "/Users/lennon/agii_runs/v3c1_pack/pack_v3c1_v7hard2.json",
+   "sha256": "2e6a44d14bbfbdb8ccad2ff667e19ff26f3623dcfecaed55c05e05a26f5ad503",
+   "version": "v3c1-pack-v7hard2-2026-11-12",
+   "builder": "scripts/pack_v7hard3_build.py",
+   "record": "docs/antagonist_boss/52_changelog.md (2026-11-14, a seal on every map)",
+   "previous": {
+    "pack": "/Users/lennon/agii_runs/v3c1_pack/pack_v3c1_v7hard.json",
+    "sha256": "10c7966a15525c154b9c353e02c101fb963789816ac0f67c3bdd5a32f70b9065",
+    "version": "v3c1-pack-v7hard-2026-11-12",
+    "builder": "scripts/pack_v7hard2_build.py",
+    "record": "docs/antagonist_boss/52_changelog.md (2026-11-12, irregular rhythm in test fights)",
+    "previous": {
+     "pack": "/Users/lennon/agii_runs/v3c1_pack/pack_v3c1_v7.json",
+     "sha256": "6b4ecfbd110c98f103ac6435f48aff6bcdf27f250de7df7348b58765eac8d2bf",
+     "version": "v3c1-pack-v7-2026-11-09",
+     "builder": "scripts/pack_v7hard_build.py",
+     "record": "docs/antagonist_boss/52_changelog.md (2026-11-12, E* calibration and map swaps)",
+     "previous": {
+      "record": "docs/antagonist_boss/52_changelog.md",
+      "build": "pack-v7-build-v1-2026-11-09",
+      "runs": "/Users/lennon/agii_runs/heal_off"
+     }
+    }
+   }
+  }
+ },
+ "worlds": [
+  {
+   "kind": "proto13-world",
+   "rules": "proto13-world-rules-v3b-2026-11-05",
+   "proto_version": "proto13-v2-2026-11-03",
+   "pool": [
+    "charge",
+    "momentum",
+    "counter",
+    "guard",
+    "ward"
+   ],
+   "id": "p13-6077236d",
+   "maps": [
+    {
+     "salt": 2500006,
+     "fights": [
+      "momentum",
+      "guard",
+      "ward",
+      "counter",
+      "ward",
+      "guard",
+      "momentum",
+      "counter"
+     ],
+     "drawn": [
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "momentum": 1,
+      "guard": 2,
+      "ward": 4,
+      "counter": 5
+     },
+     "test": {
+      "ward": 7,
+      "guard": 8,
+      "momentum": 10,
+      "counter": 11
+     }
+    },
+    {
+     "salt": 2500046,
+     "fights": [
+      "momentum",
+      "counter",
+      "charge",
+      "ward",
+      "counter",
+      "charge",
+      "ward",
+      "momentum"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "momentum": 1,
+      "counter": 2,
+      "charge": 4,
+      "ward": 5
+     },
+     "test": {
+      "counter": 7,
+      "charge": 8,
+      "ward": 10,
+      "momentum": 11
+     }
+    },
+    {
+     "salt": 2500105,
+     "fights": [
+      "charge",
+      "ward",
+      "guard",
+      "counter",
+      "ward",
+      "guard",
+      "counter",
+      "charge"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "guard",
+      "ward"
+     ],
+     "teach": {
+      "charge": 1,
+      "ward": 2,
+      "guard": 4,
+      "counter": 5
+     },
+     "test": {
+      "ward": 7,
+      "guard": 8,
+      "counter": 10,
+      "charge": 11
+     }
+    },
+    {
+     "salt": 2500450,
+     "fights": [
+      "charge",
+      "ward",
+      "momentum",
+      "guard",
+      "charge",
+      "momentum",
+      "guard",
+      "ward"
+     ],
+     "drawn": [
+      "charge",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "charge": 1,
+      "ward": 2,
+      "momentum": 4,
+      "guard": 5
+     },
+     "test": {
+      "charge": 7,
+      "momentum": 8,
+      "guard": 10,
+      "ward": 11
+     }
+    }
+   ],
+   "boss": {
+    "salt": 2602319,
+    "order": [
+     "counter",
+     "guard"
+    ],
+    "hp_pct": 175,
+    "atk_pct": 100,
+    "cue": false,
+    "mixed": true,
+    "env_by_cue": {
+     "off": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "off",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "175",
+      "PROTO_HEAL": "off"
+     },
+     "on": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "on",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "175",
+      "PROTO_HEAL": "off"
+     }
+    },
+    "cue_by_chain": {
+     "A": "on",
+     "B": "off"
+    },
+    "measured_by_cue": {
+     "off": {
+      "D": 0.38247011952191234,
+      "D_fraction": "96/251",
+      "D_oracle": 0.3147410358565737,
+      "I": 0.06772908366533864,
+      "I_fraction": "17/251",
+      "R1v2_turns": [
+       11,
+       23
+      ],
+      "switch_latency": 1,
+      "boss_hp": 184,
+      "boss_atk": 6,
+      "switch_at": 92,
+      "guard_code": "normal",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     },
+     "on": {
+      "D": 0.38247011952191234,
+      "D_fraction": "96/251",
+      "D_oracle": 0.3147410358565737,
+      "I": 0.06772908366533864,
+      "I_fraction": "17/251",
+      "R1v2_turns": [
+       11,
+       23
+      ],
+      "switch_latency": null,
+      "boss_hp": 184,
+      "boss_atk": 6,
+      "switch_at": 92,
+      "guard_code": "normal",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     }
+    }
+   },
+   "checks": {
+    "W0_two_rounds_distinct": {
+     "ok": true,
+     "salts": [
+      2500006,
+      2500046,
+      2500105,
+      2500307
+     ],
+     "two_rounds": [
+      true,
+      true,
+      true,
+      true
+     ],
+     "boss_salt": 2602319
+    },
+    "W1_maps_1_3_cover_pool": {
+     "ok": true,
+     "maps_1_3": [
+      "charge",
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "missing": []
+    },
+    "W2_boss_seen_in_maps_1_3": {
+     "ok": true,
+     "boss": [
+      "counter",
+      "guard"
+     ],
+     "missing": []
+    },
+    "W3_map_4_no_new_mechanic": {
+     "ok": true,
+     "map_4": [
+      "charge",
+      "counter",
+      "guard",
+      "momentum"
+     ],
+     "new": []
+    },
+    "W4_each_mechanic_in_3_maps": {
+     "ok": true,
+     "maps_per_mechanic": {
+      "charge": 3,
+      "momentum": 3,
+      "counter": 4,
+      "guard": 3,
+      "ward": 3
+     },
+     "min_maps": 3,
+     "missing_per_map": [
+      [
+       "charge"
+      ],
+      [
+       "guard"
+      ],
+      [
+       "momentum"
+      ],
+      [
+       "ward"
+      ]
+     ]
+    }
+   },
+   "selection": {
+    "record": "docs/antagonist_boss/52_changelog.md",
+    "world": 1,
+    "rule": "v7-hard3: a seal on every map; the replacement misses the mechanism that was in all 4 maps; candidates E*-searched under the formal rules, combination minimising the largest world-mean deviation (2026-11-14)",
+    "replaced": [
+     {
+      "old": 2500307,
+      "new": 2500450,
+      "position": 4,
+      "missing": "counter"
+     }
+    ],
+    "previous": {
+     "record": "docs/antagonist_boss/52_changelog.md",
+     "world": 1,
+     "rule": "v7-hard2: same maps as v7-hard, irregular test-fight rhythm (2026-11-12)",
+     "replaced": [],
+     "previous": {
+      "record": "docs/antagonist_boss/52_changelog.md",
+      "world": 1,
+      "rule": "v7-hard E* calibration (2026-11-12)",
+      "replaced": [],
+      "previous": {
+       "record": "docs/antagonist_boss/52_changelog.md",
+       "world": 1
+      }
+     }
+    }
+   },
+   "surface": {
+    "name": "A",
+    "identity_key": 0,
+    "module": "proto-worlds-v1-2026-11-07",
+    "economy": null,
+    "facts": {
+     "base_atk": 7,
+     "max_hp": 203,
+     "shield": 5,
+     "heal": 16,
+     "cards": {
+      "doln": "block",
+      "kel": "heal",
+      "mira": "buff_mark",
+      "tsun": "dodge",
+      "vorth": "attack"
+     },
+     "labels": {
+      "me.atk": "a4",
+      "me.block": "A5",
+      "me.cap": "a2",
+      "me.carry": "A4",
+      "me.dodge": "A2",
+      "me.double": "A1",
+      "me.energy": "a1",
+      "me.hp": "a3",
+      "me.offence": "A7",
+      "me.poison": "A3",
+      "me.tempo": "A8",
+      "me.wound": "A6",
+      "them.armour": "b2",
+      "them.atk": "b3",
+      "them.charge": "B1",
+      "them.guard": "B2",
+      "them.hp": "b1",
+      "them.mark": "B3",
+      "them.mimic": "B4",
+      "them.ward": "B5"
+     },
+     "weakest_map_hit": 6,
+     "weakest_boss_hit": 6
+    },
+    "heal_off": {
+     "module": "heal-off-v1-2026-11-09",
+     "max_hp": 203,
+     "heal": 16,
+     "rest_pct": 35,
+     "max_hp_new": 251,
+     "adjust": 0,
+     "rest_pct_new": 28,
+     "rest_each": 71,
+     "rest_each_new": 70
+    }
+   },
+   "maps_measured": [
+    {
+     "salt": 2500006,
+     "missing": [
+      "charge"
+     ],
+     "B": 407,
+     "amount": 39,
+     "rests": 4,
+     "max_hp": 251,
+     "oracle": {
+      "win": true,
+      "turns": 77.0,
+      "hp_lost": 281.0,
+      "low": 85.0,
+      "max_fight_turns": 19.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 81.0,
+      "hp_lost": 314.0,
+      "low": 54.0,
+      "max_fight_turns": 18.0
+     },
+     "frontier": {
+      "E_star": 0.009176152033294891,
+      "T": 49,
+      "L": 224,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w1_2500006.json",
+      "sha256": "bc726448534900e1f97f133c5a706195963f9ee24a5b2e041f29cf7a0bb73a43"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w1.json"
+    },
+    {
+     "salt": 2500046,
+     "missing": [
+      "guard"
+     ],
+     "B": 459,
+     "amount": 52,
+     "rests": 4,
+     "max_hp": 251,
+     "oracle": {
+      "win": true,
+      "turns": 80.0,
+      "hp_lost": 327.0,
+      "low": 76.0,
+      "max_fight_turns": 26.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 85.0,
+      "hp_lost": 356.0,
+      "low": 51.0,
+      "max_fight_turns": 25.0
+     },
+     "frontier": {
+      "E_star": 0.00922722029988466,
+      "T": 51,
+      "L": 243,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": true,
+      "source": "frontier/formal_v1/w1_2500046.json",
+      "sha256": "917a78a6a85e95bd2e4112722a6bed7aef6787778d001cbee9ed07145b5f41c4"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w1.json"
+    },
+    {
+     "salt": 2500105,
+     "missing": [
+      "momentum"
+     ],
+     "B": 347,
+     "amount": 24,
+     "rests": 4,
+     "max_hp": 251,
+     "oracle": {
+      "win": true,
+      "turns": 81.0,
+      "hp_lost": 251.0,
+      "low": 72.0,
+      "max_fight_turns": 19.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 83.0,
+      "hp_lost": 268.0,
+      "low": 54.0,
+      "max_fight_turns": 18.0
+     },
+     "frontier": {
+      "E_star": 0.009421414320549769,
+      "T": 52,
+      "L": 177,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w1_2500105.json",
+      "sha256": "87976b76977cb6358dd06812616ce4e6fd4c15e0fcc857be377acd6d9913c24f"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w1.json"
+    },
+    {
+     "salt": 2500450,
+     "missing": [
+      "counter"
+     ],
+     "B": 251,
+     "amount": 0,
+     "rests": 4,
+     "max_hp": 251,
+     "oracle": {
+      "win": true,
+      "turns": 90.0,
+      "hp_lost": 154.0
+     },
+     "R1v2": {
+      "win": true,
+      "hp_lost": 180.0,
+      "max_fight_turns": 18.0
+     },
+     "frontier": {
+      "E_star": 0.00796812749003984,
+      "T": 64,
+      "L": 123,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/v7hard3_select/E_w1_2500450.json",
+      "sha256": "a988ae47d169f1425f8f6a31435a905f946a450fd734adf6921974a946fd15f5"
+     },
+     "rules": "formal-v1-2026-11-13 (rest amount from the candidate table of this world)",
+     "refs_source": "frontier/v7hard3_select/formal_w1_*.json"
+    }
+   ],
+   "maps_measured_hard2": [
+    {
+     "salt": 2500006,
+     "missing": "charge",
+     "B": 531,
+     "D": 0.5612,
+     "D_fraction": "298.0/531",
+     "I": 0.0621,
+     "D_oracle": 0.4990583804143126,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 77.0,
+      "hp_lost": 298.0
+     },
+     "oracle": {
+      "turns": 73.0,
+      "hp_lost": 265.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w1.json",
+     "frontier": {
+      "E_star": 0.01262170934006491,
+      "T": 47,
+      "L": 216,
+      "B": 531,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w1_2500006.json",
+      "sha256": "f5688df2c8619086313995841c789876492cb2c9abd1a5f33d11d4b5f37632be"
+     },
+     "test_rhythm": [
+      {
+       "layer": 8,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500046,
+     "missing": "guard",
+     "B": 531,
+     "D": 0.6252,
+     "D_fraction": "332.0/531",
+     "I": 0.0546,
+     "D_oracle": 0.5706214689265536,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 79.0,
+      "hp_lost": 332.0
+     },
+     "oracle": {
+      "turns": 74.0,
+      "hp_lost": 303.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w1.json",
+     "frontier": {
+      "E_star": 0.01149977962094803,
+      "T": 47,
+      "L": 244,
+      "B": 531,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w1_2500046.json",
+      "sha256": "4ae7939a6ca4b3b8088412d229b577be90b5b22b55576785040c8488d9639054"
+     },
+     "test_rhythm": [
+      {
+       "layer": 8,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        4,
+        8,
+        12
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500105,
+     "missing": "momentum",
+     "B": 531,
+     "D": 0.4746,
+     "D_fraction": "252.0/531",
+     "I": 0.032,
+     "D_oracle": 0.4425612052730697,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 79.0,
+      "hp_lost": 252.0
+     },
+     "oracle": {
+      "turns": 77.0,
+      "hp_lost": 235.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w1.json",
+     "frontier": {
+      "E_star": 0.014124293785310734,
+      "T": 46,
+      "L": 186,
+      "B": 531,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w1_2500105.json",
+      "sha256": "4bc55677d8b0036244c75d08169551612c87e67cc959464ac5e2e8137a6aeba6"
+     },
+     "test_rhythm": [
+      {
+       "layer": 8,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+       ]
+      },
+      {
+       "layer": 11,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        3,
+        7,
+        10
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500307,
+     "missing": "ward",
+     "B": 531,
+     "D": 0.4934,
+     "D_fraction": "262.0/531",
+     "I": 0.064,
+     "D_oracle": 0.4293785310734463,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 88.0,
+      "hp_lost": 262.0
+     },
+     "oracle": {
+      "turns": 81.0,
+      "hp_lost": 228.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w1.json",
+     "frontier": {
+      "E_star": 0.012748080544690715,
+      "T": 52,
+      "L": 179,
+      "B": 531,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w1_2500307.json",
+      "sha256": "18311c6503b2d96910002fbed57cfff6c72b6cdfb4a6232bba2971370a6c1326"
+     },
+     "test_rhythm": [
+      {
+       "layer": 7,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+       ]
+      },
+      {
+       "layer": 11,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        3,
+        7,
+        9,
+        12
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "proto13-world",
+   "rules": "proto13-world-rules-v3b-2026-11-05",
+   "proto_version": "proto13-v2-2026-11-03",
+   "pool": [
+    "charge",
+    "momentum",
+    "counter",
+    "guard",
+    "ward"
+   ],
+   "id": "p13-b9de0ad0",
+   "maps": [
+    {
+     "salt": 2500134,
+     "fights": [
+      "ward",
+      "momentum",
+      "counter",
+      "charge",
+      "counter",
+      "ward",
+      "charge",
+      "momentum"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "ward": 1,
+      "momentum": 2,
+      "counter": 4,
+      "charge": 5
+     },
+     "test": {
+      "counter": 7,
+      "ward": 8,
+      "charge": 10,
+      "momentum": 11
+     }
+    },
+    {
+     "salt": 2500160,
+     "fights": [
+      "counter",
+      "ward",
+      "guard",
+      "charge",
+      "ward",
+      "counter",
+      "guard",
+      "charge"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "guard",
+      "ward"
+     ],
+     "teach": {
+      "counter": 1,
+      "ward": 2,
+      "guard": 4,
+      "charge": 5
+     },
+     "test": {
+      "ward": 7,
+      "counter": 8,
+      "guard": 10,
+      "charge": 11
+     }
+    },
+    {
+     "salt": 2500539,
+     "fights": [
+      "guard",
+      "momentum",
+      "counter",
+      "ward",
+      "counter",
+      "ward",
+      "momentum",
+      "guard"
+     ],
+     "drawn": [
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "guard": 1,
+      "momentum": 2,
+      "counter": 4,
+      "ward": 5
+     },
+     "test": {
+      "counter": 7,
+      "ward": 8,
+      "momentum": 10,
+      "guard": 11
+     }
+    },
+    {
+     "salt": 2501266,
+     "fights": [
+      "charge",
+      "guard",
+      "momentum",
+      "ward",
+      "guard",
+      "momentum",
+      "ward",
+      "charge"
+     ],
+     "drawn": [
+      "charge",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "charge": 1,
+      "guard": 2,
+      "momentum": 4,
+      "ward": 5
+     },
+     "test": {
+      "guard": 7,
+      "momentum": 8,
+      "ward": 10,
+      "charge": 11
+     }
+    }
+   ],
+   "boss": {
+    "salt": 2604707,
+    "order": [
+     "counter",
+     "momentum"
+    ],
+    "hp_pct": 225,
+    "atk_pct": 100,
+    "cue": true,
+    "mixed": false,
+    "env_by_cue": {
+     "off": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "off",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "225",
+      "PROTO_WORLD": "k19",
+      "PROTO_HEAL": "off"
+     },
+     "on": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "on",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "225",
+      "PROTO_WORLD": "k19",
+      "PROTO_HEAL": "off"
+     }
+    },
+    "cue_by_chain": {
+     "A": "off",
+     "B": "on"
+    },
+    "measured_by_cue": {
+     "off": {
+      "D": 0.6464646464646465,
+      "D_fraction": "128/198",
+      "D_oracle": 0.5555555555555556,
+      "I": 0.09090909090909091,
+      "I_fraction": "18/198",
+      "R1v2_turns": [
+       14,
+       17
+      ],
+      "switch_latency": 2,
+      "boss_hp": 220,
+      "boss_atk": 6,
+      "switch_at": 110,
+      "guard_code": "normal",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     },
+     "on": {
+      "D": 0.6161616161616161,
+      "D_fraction": "122/198",
+      "D_oracle": 0.5555555555555556,
+      "I": 0.06060606060606061,
+      "I_fraction": "12/198",
+      "R1v2_turns": [
+       14,
+       19
+      ],
+      "switch_latency": null,
+      "boss_hp": 220,
+      "boss_atk": 6,
+      "switch_at": 110,
+      "guard_code": "normal",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     }
+    }
+   },
+   "checks": {
+    "W0_two_rounds_distinct": {
+     "ok": true,
+     "salts": [
+      2500134,
+      2500160,
+      2500199,
+      2500327
+     ],
+     "two_rounds": [
+      true,
+      true,
+      true,
+      true
+     ],
+     "boss_salt": 2604707
+    },
+    "W1_maps_1_3_cover_pool": {
+     "ok": true,
+     "maps_1_3": [
+      "charge",
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "missing": []
+    },
+    "W2_boss_seen_in_maps_1_3": {
+     "ok": true,
+     "boss": [
+      "counter",
+      "momentum"
+     ],
+     "missing": []
+    },
+    "W3_map_4_no_new_mechanic": {
+     "ok": true,
+     "map_4": [
+      "charge",
+      "counter",
+      "guard",
+      "momentum"
+     ],
+     "new": []
+    },
+    "W4_each_mechanic_in_3_maps": {
+     "ok": true,
+     "maps_per_mechanic": {
+      "charge": 3,
+      "momentum": 3,
+      "counter": 4,
+      "guard": 3,
+      "ward": 3
+     },
+     "min_maps": 3,
+     "missing_per_map": [
+      [
+       "guard"
+      ],
+      [
+       "momentum"
+      ],
+      [
+       "charge"
+      ],
+      [
+       "ward"
+      ]
+     ]
+    }
+   },
+   "selection": {
+    "record": "docs/antagonist_boss/52_changelog.md",
+    "world": 2,
+    "rule": "v7-hard3: a seal on every map; the replacement misses the mechanism that was in all 4 maps; candidates E*-searched under the formal rules, combination minimising the largest world-mean deviation (2026-11-14)",
+    "replaced": [
+     {
+      "old": 2500327,
+      "new": 2501266,
+      "position": 4,
+      "missing": "counter"
+     }
+    ],
+    "previous": {
+     "record": "docs/antagonist_boss/52_changelog.md",
+     "world": 2,
+     "rule": "v7-hard2: same maps as v7-hard, irregular test-fight rhythm (2026-11-12)",
+     "replaced": [],
+     "previous": {
+      "record": "docs/antagonist_boss/52_changelog.md",
+      "world": 2,
+      "rule": "v7-hard E* calibration (2026-11-12)",
+      "replaced": [
+       {
+        "old": 2500199,
+        "new": 2500539,
+        "position": 3
+       }
+      ],
+      "previous": {
+       "record": "docs/antagonist_boss/52_changelog.md",
+       "world": 2
+      }
+     }
+    }
+   },
+   "surface": {
+    "name": "k19",
+    "identity_key": 19,
+    "module": "proto-worlds-v1-2026-11-07",
+    "economy": {
+     "life_in_hits": 26,
+     "rest_pct": 39,
+     "block_x": 87,
+     "block_pct": 39
+    },
+    "facts": {
+     "base_atk": 6,
+     "max_hp": 156,
+     "shield": 4,
+     "heal": 14,
+     "cards": {
+      "breipu": "buff_mark",
+      "hilgei": "heal",
+      "jarmam": "attack",
+      "laenes": "block",
+      "maipoth": "dodge"
+     },
+     "labels": {
+      "me.atk": "a1",
+      "me.block": "A5",
+      "me.cap": "a3",
+      "me.carry": "A7",
+      "me.dodge": "A2",
+      "me.double": "A8",
+      "me.energy": "a4",
+      "me.hp": "a2",
+      "me.offence": "A3",
+      "me.poison": "A4",
+      "me.tempo": "A1",
+      "me.wound": "A6",
+      "them.armour": "b1",
+      "them.atk": "b3",
+      "them.charge": "B4",
+      "them.guard": "B3",
+      "them.hp": "b2",
+      "them.mark": "B5",
+      "them.mimic": "B1",
+      "them.ward": "B2"
+     },
+     "weakest_map_hit": 5,
+     "weakest_boss_hit": 5
+    },
+    "heal_off": {
+     "module": "heal-off-v1-2026-11-09",
+     "max_hp": 156,
+     "heal": 14,
+     "rest_pct": 39,
+     "max_hp_new": 198,
+     "adjust": 0,
+     "rest_pct_new": 30,
+     "rest_each": 60,
+     "rest_each_new": 59
+    }
+   },
+   "maps_measured": [
+    {
+     "salt": 2500134,
+     "missing": [
+      "guard"
+     ],
+     "B": 386,
+     "amount": 47,
+     "rests": 4,
+     "max_hp": 198,
+     "oracle": {
+      "win": true,
+      "turns": 80.0,
+      "hp_lost": 277.0,
+      "low": 49.0,
+      "max_fight_turns": 26.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 86.0,
+      "hp_lost": 299.0,
+      "low": 25.0,
+      "max_fight_turns": 25.0
+     },
+     "frontier": {
+      "E_star": 0.009430051813471502,
+      "T": 50,
+      "L": 204,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": true,
+      "source": "frontier/formal_v1/w2_2500134.json",
+      "sha256": "f83e2aec759d7c889bdacdef289bac7ab8cf9323a41958cb8ff996ab89293ec7"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w2.json"
+    },
+    {
+     "salt": 2500160,
+     "missing": [
+      "momentum"
+     ],
+     "B": 274,
+     "amount": 19,
+     "rests": 4,
+     "max_hp": 198,
+     "oracle": {
+      "win": true,
+      "turns": 81.0,
+      "hp_lost": 185.0,
+      "low": 70.0,
+      "max_fight_turns": 19.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 87.0,
+      "hp_lost": 211.0,
+      "low": 44.0,
+      "max_fight_turns": 18.0
+     },
+     "frontier": {
+      "E_star": 0.009917486512218344,
+      "T": 46,
+      "L": 149,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w2_2500160.json",
+      "sha256": "1e30b38ddfc7eff7de0627618cdbcf569139f75b20df76ad1e049bc3ee467c8c"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w2.json"
+    },
+    {
+     "salt": 2500539,
+     "missing": [
+      "charge"
+     ],
+     "B": 406,
+     "amount": 52,
+     "rests": 4,
+     "max_hp": 198,
+     "oracle": {
+      "win": true,
+      "turns": 78.0,
+      "hp_lost": 286.0,
+      "low": 64.0,
+      "max_fight_turns": 18.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 83.0,
+      "hp_lost": 315.0,
+      "low": 38.0,
+      "max_fight_turns": 18.0
+     },
+     "frontier": {
+      "E_star": 0.010190283009755626,
+      "T": 51,
+      "L": 195,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w2_2500539.json",
+      "sha256": "6b1cde3d0361e3b5a5116617054529765f37453700bd84cb0f3fd8e59dca6515"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w2.json"
+    },
+    {
+     "salt": 2501266,
+     "missing": [
+      "counter"
+     ],
+     "B": 338,
+     "amount": 35,
+     "rests": 4,
+     "max_hp": 198,
+     "oracle": {
+      "win": true,
+      "turns": 101.0,
+      "hp_lost": 257.0
+     },
+     "R1v2": {
+      "win": true,
+      "hp_lost": 263.0,
+      "max_fight_turns": 24.0
+     },
+     "frontier": {
+      "E_star": 0.008059579677616812,
+      "T": 58,
+      "L": 180,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/v7hard3_select/E_w2_2501266.json",
+      "sha256": "04f8c9bdb2240ae42af889bd139b3108ade2fe79a8424274dc93b1601eb4e170"
+     },
+     "rules": "formal-v1-2026-11-13 (rest amount from the candidate table of this world)",
+     "refs_source": "frontier/v7hard3_select/formal_w2_*.json"
+    }
+   ],
+   "maps_measured_hard2": [
+    {
+     "salt": 2500134,
+     "missing": "guard",
+     "B": 434,
+     "D": 0.6336,
+     "D_fraction": "275.0/434",
+     "I": 0.0507,
+     "D_oracle": 0.5829493087557603,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 80.0,
+      "hp_lost": 275.0
+     },
+     "oracle": {
+      "turns": 74.0,
+      "hp_lost": 253.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w2.json",
+     "frontier": {
+      "E_star": 0.011424731182795697,
+      "T": 48,
+      "L": 196,
+      "B": 434,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w2_2500134.json",
+      "sha256": "e4180f8533ae740537eeeda5e8fa25dcc427024e3d716aebfb4a7554402c7d76"
+     },
+     "test_rhythm": [
+      {
+       "layer": 10,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        3,
+        5,
+        7,
+        11
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500160,
+     "missing": "momentum",
+     "B": 434,
+     "D": 0.4677,
+     "D_fraction": "203.0/434",
+     "I": 0.0599,
+     "D_oracle": 0.4078341013824885,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 83.0,
+      "hp_lost": 203.0
+     },
+     "oracle": {
+      "turns": 77.0,
+      "hp_lost": 177.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w2.json",
+     "frontier": {
+      "E_star": 0.015134059488898198,
+      "T": 44,
+      "L": 145,
+      "B": 434,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w2_2500160.json",
+      "sha256": "ce747807f883760566ac6f3c85e9ce361f1f9e6561eb7d77e30d3840a70e9fd5"
+     },
+     "test_rhythm": [
+      {
+       "layer": 10,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "layer": 11,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        5,
+        7,
+        9,
+        12
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500539,
+     "missing": "charge",
+     "B": 434,
+     "D": 0.6889,
+     "D_fraction": "299.0/434",
+     "I": 0.0668,
+     "D_oracle": 0.6221198156682027,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 79.0,
+      "hp_lost": 299.0
+     },
+     "oracle": {
+      "turns": 74.0,
+      "hp_lost": 270.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w2.json",
+     "frontier": {
+      "E_star": 0.011614784162512931,
+      "T": 49,
+      "L": 187,
+      "B": 434,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w2_2500539.json",
+      "sha256": "9217ec07dcc39bab44230a9e4e6d6ff8c1d96830ad31dae6b1d0722fd814c8df"
+     },
+     "test_rhythm": [
+      {
+       "layer": 11,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500327,
+     "missing": "ward",
+     "B": 434,
+     "D": 0.5415,
+     "D_fraction": "235.0/434",
+     "I": 0.0645,
+     "D_oracle": 0.4769585253456221,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 81.0,
+      "hp_lost": 235.0
+     },
+     "oracle": {
+      "turns": 75.0,
+      "hp_lost": 207.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w2.json",
+     "frontier": {
+      "E_star": 0.013632872503840246,
+      "T": 48,
+      "L": 150,
+      "B": 434,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w2_2500327.json",
+      "sha256": "694a77000b413d7cc87bd3f2fe2a8fc90b18aad0b7bd3cd1658c5c2229f9a151"
+     },
+     "test_rhythm": [
+      {
+       "layer": 8,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        4,
+        7,
+        11
+       ]
+      },
+      {
+       "layer": 10,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "proto13-world",
+   "rules": "proto13-world-rules-v3b-2026-11-05",
+   "proto_version": "proto13-v2-2026-11-03",
+   "pool": [
+    "charge",
+    "momentum",
+    "counter",
+    "guard",
+    "ward"
+   ],
+   "id": "p13-412a97db",
+   "maps": [
+    {
+     "salt": 2500040,
+     "fights": [
+      "charge",
+      "ward",
+      "counter",
+      "momentum",
+      "momentum",
+      "counter",
+      "ward",
+      "charge"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "charge": 1,
+      "ward": 2,
+      "counter": 4,
+      "momentum": 5
+     },
+     "test": {
+      "momentum": 7,
+      "counter": 8,
+      "ward": 10,
+      "charge": 11
+     }
+    },
+    {
+     "salt": 2500072,
+     "fights": [
+      "ward",
+      "charge",
+      "guard",
+      "momentum",
+      "momentum",
+      "ward",
+      "charge",
+      "guard"
+     ],
+     "drawn": [
+      "charge",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "ward": 1,
+      "charge": 2,
+      "guard": 4,
+      "momentum": 5
+     },
+     "test": {
+      "momentum": 7,
+      "ward": 8,
+      "charge": 10,
+      "guard": 11
+     }
+    },
+    {
+     "salt": 2501026,
+     "fights": [
+      "guard",
+      "counter",
+      "charge",
+      "ward",
+      "guard",
+      "ward",
+      "charge",
+      "counter"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "guard",
+      "ward"
+     ],
+     "teach": {
+      "guard": 1,
+      "counter": 2,
+      "charge": 4,
+      "ward": 5
+     },
+     "test": {
+      "guard": 7,
+      "ward": 8,
+      "charge": 10,
+      "counter": 11
+     }
+    },
+    {
+     "salt": 2500905,
+     "fights": [
+      "guard",
+      "momentum",
+      "ward",
+      "counter",
+      "momentum",
+      "ward",
+      "guard",
+      "counter"
+     ],
+     "drawn": [
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "guard": 1,
+      "momentum": 2,
+      "ward": 4,
+      "counter": 5
+     },
+     "test": {
+      "momentum": 7,
+      "ward": 8,
+      "guard": 10,
+      "counter": 11
+     }
+    }
+   ],
+   "boss": {
+    "salt": 2602919,
+    "order": [
+     "charge",
+     "counter"
+    ],
+    "hp_pct": 225,
+    "atk_pct": 100,
+    "cue": false,
+    "mixed": true,
+    "env_by_cue": {
+     "off": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "off",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "225",
+      "PROTO_WORLD": "k3",
+      "PROTO_HEAL": "off"
+     },
+     "on": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "on",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "225",
+      "PROTO_WORLD": "k3",
+      "PROTO_HEAL": "off"
+     }
+    },
+    "cue_by_chain": {
+     "A": "on",
+     "B": "off"
+    },
+    "measured_by_cue": {
+     "off": {
+      "D": 0.4263959390862944,
+      "D_fraction": "84/197",
+      "D_oracle": 0.39086294416243655,
+      "I": 0.03553299492385787,
+      "I_fraction": "7/197",
+      "R1v2_turns": [
+       22,
+       11
+      ],
+      "switch_latency": 1,
+      "boss_hp": 155,
+      "boss_atk": 5,
+      "switch_at": 77,
+      "guard_code": "flipped",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     },
+     "on": {
+      "D": 0.4263959390862944,
+      "D_fraction": "84/197",
+      "D_oracle": 0.39086294416243655,
+      "I": 0.03553299492385787,
+      "I_fraction": "7/197",
+      "R1v2_turns": [
+       22,
+       11
+      ],
+      "switch_latency": null,
+      "boss_hp": 155,
+      "boss_atk": 5,
+      "switch_at": 77,
+      "guard_code": "flipped",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     }
+    }
+   },
+   "checks": {
+    "W0_two_rounds_distinct": {
+     "ok": true,
+     "salts": [
+      2500040,
+      2500072,
+      2500400,
+      2500695
+     ],
+     "two_rounds": [
+      true,
+      true,
+      true,
+      true
+     ],
+     "boss_salt": 2602919
+    },
+    "W1_maps_1_3_cover_pool": {
+     "ok": true,
+     "maps_1_3": [
+      "charge",
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "missing": []
+    },
+    "W2_boss_seen_in_maps_1_3": {
+     "ok": true,
+     "boss": [
+      "charge",
+      "counter"
+     ],
+     "missing": []
+    },
+    "W3_map_4_no_new_mechanic": {
+     "ok": true,
+     "map_4": [
+      "charge",
+      "counter",
+      "guard",
+      "momentum"
+     ],
+     "new": []
+    },
+    "W4_each_mechanic_in_3_maps": {
+     "ok": true,
+     "maps_per_mechanic": {
+      "charge": 4,
+      "momentum": 3,
+      "counter": 3,
+      "guard": 3,
+      "ward": 3
+     },
+     "min_maps": 3,
+     "missing_per_map": [
+      [
+       "guard"
+      ],
+      [
+       "counter"
+      ],
+      [
+       "momentum"
+      ],
+      [
+       "ward"
+      ]
+     ]
+    }
+   },
+   "selection": {
+    "record": "docs/antagonist_boss/52_changelog.md",
+    "world": 3,
+    "rule": "world 3: replace one of the two easiest kept maps (2500072 / 2500400) by a ward map missing the same mechanism, not easier than the map it replaces (E* under the formal rules not higher); among searched candidates the one minimising the world-mean deviation penalty (1000 × excess above +5 % + excess below −5 %), ties by the largest |deviation| (user 2026-11-14: 'do it yourself')",
+    "replaced": [
+     {
+      "old": 2500400,
+      "new": 2501026,
+      "position": 3,
+      "missing": "momentum"
+     }
+    ],
+    "selection": {
+     "file": "frontier/v7hard3c_w3/selection.json",
+     "sha256": "e8136d12401ad881a9cf564fdbcbec9124a3d308d312a73ff520020cf0f3bd96"
+    },
+    "previous": {
+     "record": "docs/antagonist_boss/52_changelog.md",
+     "world": 3,
+     "rule": "v7-hard3: a seal on every map; the replacement misses the mechanism that was in all 4 maps; candidates E*-searched under the formal rules, combination minimising the largest world-mean deviation (2026-11-14)",
+     "replaced": [
+      {
+       "old": 2500695,
+       "new": 2500905,
+       "position": 4,
+       "missing": "charge"
+      }
+     ],
+     "previous": {
+      "record": "docs/antagonist_boss/52_changelog.md",
+      "world": 3,
+      "rule": "v7-hard2: same maps as v7-hard, irregular test-fight rhythm (2026-11-12)",
+      "replaced": [],
+      "previous": {
+       "record": "docs/antagonist_boss/52_changelog.md",
+       "world": 3,
+       "rule": "v7-hard E* calibration (2026-11-12)",
+       "replaced": [],
+       "previous": {
+        "record": "docs/antagonist_boss/52_changelog.md",
+        "world": 3
+       }
+      }
+     }
+    }
+   },
+   "surface": {
+    "name": "k3",
+    "identity_key": 3,
+    "module": "proto-worlds-v1-2026-11-07",
+    "economy": {
+     "life_in_hits": 33,
+     "rest_pct": 31,
+     "block_x": 83,
+     "block_pct": 37
+    },
+    "facts": {
+     "base_atk": 5,
+     "max_hp": 165,
+     "shield": 3,
+     "heal": 11,
+     "cards": {
+      "firmaen": "block",
+      "jultoth": "attack",
+      "mulkoul": "heal",
+      "rungis": "buff_mark",
+      "simha": "dodge"
+     },
+     "labels": {
+      "me.atk": "a1",
+      "me.block": "A4",
+      "me.cap": "a4",
+      "me.carry": "A6",
+      "me.dodge": "A8",
+      "me.double": "A2",
+      "me.energy": "a3",
+      "me.hp": "a2",
+      "me.offence": "A1",
+      "me.poison": "A5",
+      "me.tempo": "A3",
+      "me.wound": "A7",
+      "them.armour": "b3",
+      "them.atk": "b2",
+      "them.charge": "B2",
+      "them.guard": "B1",
+      "them.hp": "b1",
+      "them.mark": "B3",
+      "them.mimic": "B4",
+      "them.ward": "B5"
+     },
+     "weakest_map_hit": 4,
+     "weakest_boss_hit": 4
+    },
+    "heal_off": {
+     "module": "heal-off-v1-2026-11-09",
+     "max_hp": 165,
+     "heal": 11,
+     "rest_pct": 31,
+     "max_hp_new": 197,
+     "adjust": -1,
+     "rest_pct_new": 26,
+     "rest_each": 51,
+     "rest_each_new": 51
+    }
+   },
+   "maps_measured": [
+    {
+     "salt": 2500040,
+     "missing": [
+      "guard"
+     ],
+     "B": 317,
+     "amount": 30,
+     "rests": 4,
+     "max_hp": 197,
+     "oracle": {
+      "win": true,
+      "turns": 79.0,
+      "hp_lost": 225.0,
+      "low": 62.0,
+      "max_fight_turns": 18.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 83.0,
+      "hp_lost": 246.0,
+      "low": 41.0,
+      "max_fight_turns": 17.0
+     },
+     "frontier": {
+      "E_star": 0.008688914715811612,
+      "T": 57,
+      "L": 160,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w3_2500040.json",
+      "sha256": "a439f10cb55bf7edfb9abc9b5832c5a1dc9bcab2ccb9cdf3774c29ce75b881ce"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w3.json"
+    },
+    {
+     "salt": 2500072,
+     "missing": [
+      "counter"
+     ],
+     "B": 297,
+     "amount": 25,
+     "rests": 4,
+     "max_hp": 197,
+     "oracle": {
+      "win": true,
+      "turns": 87.0,
+      "hp_lost": 214.0,
+      "low": 58.0,
+      "max_fight_turns": 18.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 92.0,
+      "hp_lost": 231.0,
+      "low": 41.0,
+      "max_fight_turns": 18.0
+     },
+     "frontier": {
+      "E_star": 0.010497128144186968,
+      "T": 51,
+      "L": 138,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w3_2500072.json",
+      "sha256": "9db60e5679133e47dc0fbe62cd620d1f5fc2db6c93f80ef8dc974409cd595af7"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w3.json"
+    },
+    {
+     "salt": 2501026,
+     "missing": [
+      "momentum"
+     ],
+     "B": 277,
+     "amount": 20,
+     "rests": 4,
+     "max_hp": 197,
+     "oracle": {
+      "win": true,
+      "turns": 97.0,
+      "hp_lost": 200.0
+     },
+     "R1v2": {
+      "win": true,
+      "hp_lost": 216.0,
+      "max_fight_turns": 21.0
+     },
+     "frontier": {
+      "E_star": 0.008930267908037241,
+      "T": 57,
+      "L": 136,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/v7hard3c_w3/E_2501026.json",
+      "sha256": "5fb6f0135b92f6e83d0cd5d6adf6296f05f96cbc2481141b7773171ceb8640f5"
+     },
+     "rules": "formal-v1-2026-11-13 (rest amount from the candidate table r1v2x130cand3c)",
+     "refs_source": "frontier/v7hard3c_w3/formal_*.json"
+    },
+    {
+     "salt": 2500905,
+     "missing": [
+      "charge"
+     ],
+     "B": 273,
+     "amount": 19,
+     "rests": 4,
+     "max_hp": 197,
+     "oracle": {
+      "win": true,
+      "turns": 80.0,
+      "hp_lost": 194.0
+     },
+     "R1v2": {
+      "win": true,
+      "hp_lost": 213.0,
+      "max_fight_turns": 18.0
+     },
+     "frontier": {
+      "E_star": 0.00960674545580206,
+      "T": 53,
+      "L": 134,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/v7hard3_select/E_w3_2500905.json",
+      "sha256": "0e59b0a1186e2ea232fc38b790d999b474478dfb9c6326249112c96a1edf4c65"
+     },
+     "rules": "formal-v1-2026-11-13 (rest amount from the candidate table of this world)",
+     "refs_source": "frontier/v7hard3_select/formal_w3_*.json"
+    }
+   ],
+   "maps_measured_hard2": [
+    {
+     "salt": 2500040,
+     "missing": "guard",
+     "B": 401,
+     "D": 0.5736,
+     "D_fraction": "230.0/401",
+     "I": 0.0524,
+     "D_oracle": 0.5211970074812967,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 79.0,
+      "hp_lost": 230.0
+     },
+     "oracle": {
+      "turns": 75.0,
+      "hp_lost": 209.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w3.json",
+     "frontier": {
+      "E_star": 0.011433679951065732,
+      "T": 53,
+      "L": 158,
+      "B": 401,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w3_2500040.json",
+      "sha256": "5c1096560b656e359a38167063d8afc3619097fd8415eab5281d068ef0a30161"
+     },
+     "test_rhythm": [
+      {
+       "layer": 11,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        4,
+        7,
+        10
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500072,
+     "missing": "counter",
+     "B": 401,
+     "D": 0.5461,
+     "D_fraction": "219.0/401",
+     "I": 0.0424,
+     "D_oracle": 0.5037406483790524,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 88.0,
+      "hp_lost": 219.0
+     },
+     "oracle": {
+      "turns": 83.0,
+      "hp_lost": 202.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w3.json",
+     "frontier": {
+      "E_star": 0.01369026413557942,
+      "T": 49,
+      "L": 132,
+      "B": 401,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w3_2500072.json",
+      "sha256": "b8db7103c7d7fcf726fe869df343a177fd5864898832f68c097e58aac51633a6"
+     },
+     "test_rhythm": [
+      {
+       "layer": 10,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        5,
+        8,
+        12
+       ]
+      },
+      {
+       "layer": 11,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500400,
+     "missing": "momentum",
+     "B": 401,
+     "D": 0.6284,
+     "D_fraction": "252.0/401",
+     "I": 0.0499,
+     "D_oracle": 0.5785536159600998,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 92.0,
+      "hp_lost": 252.0
+     },
+     "oracle": {
+      "turns": 87.0,
+      "hp_lost": 232.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w3.json",
+     "frontier": {
+      "E_star": 0.012825080156750978,
+      "T": 49,
+      "L": 149,
+      "B": 401,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w3_2500400.json",
+      "sha256": "149c7d93debcdab0145deb27ef27dd7fde66c6ccc60eebc321eb72d7ec4fe161"
+     },
+     "test_rhythm": [
+      {
+       "layer": 10,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+       ]
+      },
+      {
+       "layer": 11,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        3,
+        5,
+        8,
+        10
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500695,
+     "missing": "ward",
+     "B": 401,
+     "D": 0.596,
+     "D_fraction": "239.0/401",
+     "I": 0.0648,
+     "D_oracle": 0.5311720698254364,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 82.0,
+      "hp_lost": 239.0
+     },
+     "oracle": {
+      "turns": 76.0,
+      "hp_lost": 213.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w3.json",
+     "frontier": {
+      "E_star": 0.012718204488778055,
+      "T": 50,
+      "L": 146,
+      "B": 401,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w3_2500695.json",
+      "sha256": "47f7a33952832570cbcf5454391550dc0912b9665351adbe9552a3232a07bc18"
+     },
+     "test_rhythm": [
+      {
+       "layer": 7,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+       ]
+      },
+      {
+       "layer": 10,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        4,
+        6,
+        10
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "proto13-world",
+   "rules": "proto13-world-rules-v3b-2026-11-05",
+   "proto_version": "proto13-v2-2026-11-03",
+   "pool": [
+    "charge",
+    "momentum",
+    "counter",
+    "guard",
+    "ward"
+   ],
+   "id": "p13-6c861561",
+   "maps": [
+    {
+     "salt": 2500373,
+     "fights": [
+      "momentum",
+      "charge",
+      "guard",
+      "ward",
+      "momentum",
+      "charge",
+      "ward",
+      "guard"
+     ],
+     "drawn": [
+      "charge",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "momentum": 1,
+      "charge": 2,
+      "guard": 4,
+      "ward": 5
+     },
+     "test": {
+      "momentum": 7,
+      "charge": 8,
+      "ward": 10,
+      "guard": 11
+     }
+    },
+    {
+     "salt": 2500170,
+     "fights": [
+      "charge",
+      "counter",
+      "ward",
+      "momentum",
+      "charge",
+      "momentum",
+      "ward",
+      "counter"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "charge": 1,
+      "counter": 2,
+      "ward": 4,
+      "momentum": 5
+     },
+     "test": {
+      "charge": 7,
+      "momentum": 8,
+      "ward": 10,
+      "counter": 11
+     }
+    },
+    {
+     "salt": 2500316,
+     "fights": [
+      "counter",
+      "charge",
+      "guard",
+      "ward",
+      "counter",
+      "ward",
+      "charge",
+      "guard"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "guard",
+      "ward"
+     ],
+     "teach": {
+      "counter": 1,
+      "charge": 2,
+      "guard": 4,
+      "ward": 5
+     },
+     "test": {
+      "counter": 7,
+      "ward": 8,
+      "charge": 10,
+      "guard": 11
+     }
+    },
+    {
+     "salt": 2500443,
+     "fights": [
+      "guard",
+      "ward",
+      "momentum",
+      "counter",
+      "momentum",
+      "guard",
+      "ward",
+      "counter"
+     ],
+     "drawn": [
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "guard": 1,
+      "ward": 2,
+      "momentum": 4,
+      "counter": 5
+     },
+     "test": {
+      "momentum": 7,
+      "guard": 8,
+      "ward": 10,
+      "counter": 11
+     }
+    }
+   ],
+   "boss": {
+    "salt": 2604408,
+    "order": [
+     "ward",
+     "guard"
+    ],
+    "hp_pct": 125,
+    "atk_pct": 130,
+    "cue": true,
+    "mixed": false,
+    "env_by_cue": {
+     "off": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "off",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "125",
+      "PROTO_BOSS_ATK": "130",
+      "PROTO_WORLD": "k21",
+      "PROTO_HEAL": "off"
+     },
+     "on": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "on",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "125",
+      "PROTO_BOSS_ATK": "130",
+      "PROTO_WORLD": "k21",
+      "PROTO_HEAL": "off"
+     }
+    },
+    "cue_by_chain": {
+     "A": "off",
+     "B": "on"
+    },
+    "measured_by_cue": {
+     "off": {
+      "D": 0.6206896551724138,
+      "D_fraction": "162/261",
+      "D_oracle": 0.5977011494252874,
+      "I": 0.022988505747126436,
+      "I_fraction": "6/261",
+      "R1v2_turns": [
+       13,
+       15
+      ],
+      "switch_latency": 1,
+      "boss_hp": 169,
+      "boss_atk": 13,
+      "switch_at": 84,
+      "guard_code": "flipped",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     },
+     "on": {
+      "D": 0.6206896551724138,
+      "D_fraction": "162/261",
+      "D_oracle": 0.5977011494252874,
+      "I": 0.022988505747126436,
+      "I_fraction": "6/261",
+      "R1v2_turns": [
+       13,
+       15
+      ],
+      "switch_latency": null,
+      "boss_hp": 169,
+      "boss_atk": 13,
+      "switch_at": 84,
+      "guard_code": "flipped",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     }
+    }
+   },
+   "checks": {
+    "W0_two_rounds_distinct": {
+     "ok": true,
+     "salts": [
+      2500074,
+      2500170,
+      2500316,
+      2500443
+     ],
+     "two_rounds": [
+      true,
+      true,
+      true,
+      true
+     ],
+     "boss_salt": 2604408
+    },
+    "W1_maps_1_3_cover_pool": {
+     "ok": true,
+     "maps_1_3": [
+      "charge",
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "missing": []
+    },
+    "W2_boss_seen_in_maps_1_3": {
+     "ok": true,
+     "boss": [
+      "ward",
+      "guard"
+     ],
+     "missing": []
+    },
+    "W3_map_4_no_new_mechanic": {
+     "ok": true,
+     "map_4": [
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "new": []
+    },
+    "W4_each_mechanic_in_3_maps": {
+     "ok": true,
+     "maps_per_mechanic": {
+      "charge": 3,
+      "momentum": 3,
+      "counter": 3,
+      "guard": 3,
+      "ward": 4
+     },
+     "min_maps": 3,
+     "missing_per_map": [
+      [
+       "counter"
+      ],
+      [
+       "guard"
+      ],
+      [
+       "momentum"
+      ],
+      [
+       "charge"
+      ]
+     ]
+    }
+   },
+   "selection": {
+    "record": "docs/antagonist_boss/52_changelog.md",
+    "world": 4,
+    "rule": "v7-hard3: a seal on every map; the replacement misses the mechanism that was in all 4 maps; candidates E*-searched under the formal rules, combination minimising the largest world-mean deviation (2026-11-14)",
+    "replaced": [],
+    "previous": {
+     "record": "docs/antagonist_boss/52_changelog.md",
+     "world": 4,
+     "rule": "v7-hard2: same maps as v7-hard, irregular test-fight rhythm (2026-11-12)",
+     "replaced": [],
+     "previous": {
+      "record": "docs/antagonist_boss/52_changelog.md",
+      "world": 4,
+      "rule": "v7-hard E* calibration (2026-11-12)",
+      "replaced": [
+       {
+        "old": 2500074,
+        "new": 2500373,
+        "position": 1
+       }
+      ],
+      "previous": {
+       "record": "docs/antagonist_boss/52_changelog.md",
+       "world": 4
+      }
+     }
+    }
+   },
+   "surface": {
+    "name": "k21",
+    "identity_key": 21,
+    "module": "proto-worlds-v1-2026-11-07",
+    "economy": {
+     "life_in_hits": 24,
+     "rest_pct": 40,
+     "block_x": 118,
+     "block_pct": 53
+    },
+    "facts": {
+     "base_atk": 9,
+     "max_hp": 216,
+     "shield": 7,
+     "heal": 15,
+     "cards": {
+      "fubrei": "attack",
+      "jairlai": "dodge",
+      "loustol": "heal",
+      "mekgil": "buff_mark",
+      "raesbia": "block"
+     },
+     "labels": {
+      "me.atk": "a1",
+      "me.block": "A2",
+      "me.cap": "a4",
+      "me.carry": "A1",
+      "me.dodge": "A4",
+      "me.double": "A3",
+      "me.energy": "a3",
+      "me.hp": "a2",
+      "me.offence": "A7",
+      "me.poison": "A6",
+      "me.tempo": "A8",
+      "me.wound": "A5",
+      "them.armour": "b2",
+      "them.atk": "b1",
+      "them.charge": "B5",
+      "them.guard": "B4",
+      "them.hp": "b3",
+      "them.mark": "B3",
+      "them.mimic": "B2",
+      "them.ward": "B1"
+     },
+     "weakest_map_hit": 8,
+     "weakest_boss_hit": 8
+    },
+    "heal_off": {
+     "module": "heal-off-v1-2026-11-09",
+     "max_hp": 216,
+     "heal": 15,
+     "rest_pct": 40,
+     "max_hp_new": 261,
+     "adjust": 0,
+     "rest_pct_new": 33,
+     "rest_each": 86,
+     "rest_each_new": 86
+    }
+   },
+   "maps_measured": [
+    {
+     "salt": 2500373,
+     "missing": [
+      "counter"
+     ],
+     "B": 401,
+     "amount": 35,
+     "rests": 4,
+     "max_hp": 261,
+     "oracle": {
+      "win": true,
+      "turns": 94.0,
+      "hp_lost": 268.0,
+      "low": 98.0,
+      "max_fight_turns": 18.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 102.0,
+      "hp_lost": 310.0,
+      "low": 56.0,
+      "max_fight_turns": 20.0
+     },
+     "frontier": {
+      "E_star": 0.008524144184992066,
+      "T": 55,
+      "L": 213,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w4_2500373.json",
+      "sha256": "288584b3dc3fb48ff95dfb3ac814495d48176f48e1c054b6e0fc959b50b1ec23"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w4.json"
+    },
+    {
+     "salt": 2500170,
+     "missing": [
+      "guard"
+     ],
+     "B": 417,
+     "amount": 39,
+     "rests": 4,
+     "max_hp": 261,
+     "oracle": {
+      "win": true,
+      "turns": 73.0,
+      "hp_lost": 272.0,
+      "low": 106.0,
+      "max_fight_turns": 18.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 78.0,
+      "hp_lost": 323.0,
+      "low": 55.0,
+      "max_fight_turns": 17.0
+     },
+     "frontier": {
+      "E_star": 0.009347623941662997,
+      "T": 49,
+      "L": 226,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w4_2500170.json",
+      "sha256": "9051e8747b34f47e6edd61961cce1635eb6523160938c3828a07762af87a6e26"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w4.json"
+    },
+    {
+     "salt": 2500316,
+     "missing": [
+      "momentum"
+     ],
+     "B": 409,
+     "amount": 37,
+     "rests": 4,
+     "max_hp": 261,
+     "oracle": {
+      "win": true,
+      "turns": 88.0,
+      "hp_lost": 280.0,
+      "low": 92.0,
+      "max_fight_turns": 19.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 91.0,
+      "hp_lost": 316.0,
+      "low": 56.0,
+      "max_fight_turns": 18.0
+     },
+     "frontier": {
+      "E_star": 0.008617579862920357,
+      "T": 61,
+      "L": 194,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w4_2500316.json",
+      "sha256": "caa0fde4395baef4c6309d7ecdc7d5a29b73f83dd1e05879ea1538fac36e9663"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w4.json"
+    },
+    {
+     "salt": 2500443,
+     "missing": [
+      "charge"
+     ],
+     "B": 517,
+     "amount": 64,
+     "rests": 4,
+     "max_hp": 261,
+     "oracle": {
+      "win": true,
+      "turns": 79.0,
+      "hp_lost": 357.0,
+      "low": 50.0,
+      "max_fight_turns": 18.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 82.0,
+      "hp_lost": 399.0,
+      "low": 36.0,
+      "max_fight_turns": 17.0
+     },
+     "frontier": {
+      "E_star": 0.009563722329679777,
+      "T": 54,
+      "L": 250,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w4_2500443.json",
+      "sha256": "b985add5d7e3a0c52c218e5b2487f05153222c1f060e78d976eabcc04c5dbbde"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w4.json"
+    }
+   ],
+   "maps_measured_hard2": [
+    {
+     "salt": 2500373,
+     "missing": "counter",
+     "B": 605,
+     "D": 0.4992,
+     "D_fraction": "302.0/605",
+     "I": 0.0694,
+     "D_oracle": 0.4297520661157025,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 98.0,
+      "hp_lost": 302.0
+     },
+     "oracle": {
+      "turns": 90.0,
+      "hp_lost": 260.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w4.json",
+     "frontier": {
+      "E_star": 0.01213160767191642,
+      "T": 53,
+      "L": 216,
+      "B": 605,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w4_2500373.json",
+      "sha256": "94727caedfe761cb38aa02be26af9798af539d00f29a5d12a561a256528c2815"
+     },
+     "test_rhythm": [
+      {
+       "layer": 8,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        4,
+        7,
+        11
+       ]
+      },
+      {
+       "layer": 11,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500170,
+     "missing": "guard",
+     "B": 605,
+     "D": 0.514,
+     "D_fraction": "311.0/605",
+     "I": 0.0843,
+     "D_oracle": 0.4297520661157025,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 74.0,
+      "hp_lost": 311.0
+     },
+     "oracle": {
+      "turns": 69.0,
+      "hp_lost": 260.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w4.json",
+     "frontier": {
+      "E_star": 0.013824192336589032,
+      "T": 44,
+      "L": 237,
+      "B": 605,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w4_2500170.json",
+      "sha256": "da6b01d8bc9c29daeb269da7469eaa9dbf402d5431bd0b83a80bc657515c6e29"
+     },
+     "test_rhythm": [
+      {
+       "layer": 7,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        4,
+        7,
+        9,
+        12
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500316,
+     "missing": "momentum",
+     "B": 605,
+     "D": 0.5157,
+     "D_fraction": "312.0/605",
+     "I": 0.0595,
+     "D_oracle": 0.456198347107438,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 87.0,
+      "hp_lost": 312.0
+     },
+     "oracle": {
+      "turns": 84.0,
+      "hp_lost": 276.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w4.json",
+     "frontier": {
+      "E_star": 0.012198347107438017,
+      "T": 50,
+      "L": 236,
+      "B": 605,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w4_2500316.json",
+      "sha256": "df1b44ee34b6aa95f479d79d6ecf2e3ed6022a0e2bb6836d3e4e25292e50ba2a"
+     },
+     "test_rhythm": [
+      {
+       "layer": 10,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        5,
+        8,
+        12
+       ]
+      },
+      {
+       "layer": 11,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500443,
+     "missing": "charge",
+     "B": 605,
+     "D": 0.6198,
+     "D_fraction": "375.0/605",
+     "I": 0.0694,
+     "D_oracle": 0.5504132231404959,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 78.0,
+      "hp_lost": 375.0
+     },
+     "oracle": {
+      "turns": 75.0,
+      "hp_lost": 333.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w4.json",
+     "frontier": {
+      "E_star": 0.011732296224274835,
+      "T": 51,
+      "L": 243,
+      "B": 605,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w4_2500443.json",
+      "sha256": "ed1918054cf357198bcc5179677c19c939e5b05cfafc8fb9c6e2be425de3d3a2"
+     },
+     "test_rhythm": [
+      {
+       "layer": 8,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "proto13-world",
+   "rules": "proto13-world-rules-v3b-2026-11-05",
+   "proto_version": "proto13-v2-2026-11-03",
+   "pool": [
+    "charge",
+    "momentum",
+    "counter",
+    "guard",
+    "ward"
+   ],
+   "id": "p13-ad7dd220",
+   "maps": [
+    {
+     "salt": 2500027,
+     "fights": [
+      "momentum",
+      "ward",
+      "counter",
+      "guard",
+      "guard",
+      "momentum",
+      "counter",
+      "ward"
+     ],
+     "drawn": [
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "momentum": 1,
+      "ward": 2,
+      "counter": 4,
+      "guard": 5
+     },
+     "test": {
+      "guard": 7,
+      "momentum": 8,
+      "counter": 10,
+      "ward": 11
+     }
+    },
+    {
+     "salt": 2500516,
+     "fights": [
+      "momentum",
+      "ward",
+      "charge",
+      "guard",
+      "momentum",
+      "ward",
+      "charge",
+      "guard"
+     ],
+     "drawn": [
+      "charge",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "momentum": 1,
+      "ward": 2,
+      "charge": 4,
+      "guard": 5
+     },
+     "test": {
+      "momentum": 7,
+      "ward": 8,
+      "charge": 10,
+      "guard": 11
+     }
+    },
+    {
+     "salt": 2500200,
+     "fights": [
+      "guard",
+      "ward",
+      "charge",
+      "counter",
+      "charge",
+      "ward",
+      "counter",
+      "guard"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "guard",
+      "ward"
+     ],
+     "teach": {
+      "guard": 1,
+      "ward": 2,
+      "charge": 4,
+      "counter": 5
+     },
+     "test": {
+      "charge": 7,
+      "ward": 8,
+      "counter": 10,
+      "guard": 11
+     }
+    },
+    {
+     "salt": 2500244,
+     "fights": [
+      "charge",
+      "ward",
+      "momentum",
+      "counter",
+      "counter",
+      "momentum",
+      "charge",
+      "ward"
+     ],
+     "drawn": [
+      "charge",
+      "counter",
+      "momentum",
+      "ward"
+     ],
+     "teach": {
+      "charge": 1,
+      "ward": 2,
+      "momentum": 4,
+      "counter": 5
+     },
+     "test": {
+      "counter": 7,
+      "momentum": 8,
+      "charge": 10,
+      "ward": 11
+     }
+    }
+   ],
+   "boss": {
+    "salt": 2602402,
+    "order": [
+     "counter",
+     "charge"
+    ],
+    "hp_pct": 175,
+    "atk_pct": 100,
+    "cue": false,
+    "mixed": true,
+    "env_by_cue": {
+     "off": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "off",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "175",
+      "PROTO_WORLD": "k42",
+      "PROTO_HEAL": "off"
+     },
+     "on": {
+      "PROTO_HAND": "fixed",
+      "PROTO_LADDER": "1",
+      "PROTO_RAGE": "off",
+      "PROTO_TUNE": "m59ws2t25c_bp45w90_c48",
+      "PROTO_LADDER_TABLE": "v3c1b",
+      "PROTO_POOL": "v3b",
+      "PROTO_MOMENTUM": "noshield",
+      "PROTO_DOUBLER": "turncd",
+      "PROTO_GUARDCODE": "map",
+      "PROTO_COUNTER": "noblock",
+      "PROTO_GUARDSTART": "map",
+      "PROTO_BOSS": "v1",
+      "PROTO_BOSS_TURNCAP": "45",
+      "PROTO_GUARDSEQ": "irr67",
+      "PROTO_CHARGESEQ": "len234",
+      "PROTO_BOSS_CUE": "on",
+      "PROTO_BOSS_SLOTSWAP": "vanish",
+      "PROTO_BOSS_HANDOVER": "x1m2",
+      "PROTO_BOSS_STRIKE": "probe1w",
+      "PROTO_BOSS_GUARDIN": "now",
+      "PROTO_BOSS_HP": "175",
+      "PROTO_WORLD": "k42",
+      "PROTO_HEAL": "off"
+     }
+    },
+    "cue_by_chain": {
+     "A": "off",
+     "B": "on"
+    },
+    "measured_by_cue": {
+     "off": {
+      "D": 0.7033898305084746,
+      "D_fraction": "166/236",
+      "D_oracle": 0.6440677966101694,
+      "I": 0.059322033898305086,
+      "I_fraction": "14/236",
+      "R1v2_turns": [
+       11,
+       21
+      ],
+      "switch_latency": 1,
+      "boss_hp": 228,
+      "boss_atk": 10,
+      "switch_at": 114,
+      "guard_code": "normal",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     },
+     "on": {
+      "D": 0.7203389830508474,
+      "D_fraction": "170/236",
+      "D_oracle": 0.6440677966101694,
+      "I": 0.07627118644067797,
+      "I_fraction": "18/236",
+      "R1v2_turns": [
+       11,
+       22
+      ],
+      "switch_latency": null,
+      "boss_hp": 228,
+      "boss_atk": 10,
+      "switch_at": 114,
+      "guard_code": "normal",
+      "won": {
+       "R1v2": true,
+       "oracle": true,
+       "persev": false,
+       "early": false
+      }
+     }
+    }
+   },
+   "checks": {
+    "W0_two_rounds_distinct": {
+     "ok": true,
+     "salts": [
+      2500027,
+      2500156,
+      2500200,
+      2500244
+     ],
+     "two_rounds": [
+      true,
+      true,
+      true,
+      true
+     ],
+     "boss_salt": 2602402
+    },
+    "W1_maps_1_3_cover_pool": {
+     "ok": true,
+     "maps_1_3": [
+      "charge",
+      "counter",
+      "guard",
+      "momentum",
+      "ward"
+     ],
+     "missing": []
+    },
+    "W2_boss_seen_in_maps_1_3": {
+     "ok": true,
+     "boss": [
+      "counter",
+      "charge"
+     ],
+     "missing": []
+    },
+    "W3_map_4_no_new_mechanic": {
+     "ok": true,
+     "map_4": [
+      "charge",
+      "counter",
+      "momentum",
+      "ward"
+     ],
+     "new": []
+    },
+    "W4_each_mechanic_in_3_maps": {
+     "ok": true,
+     "maps_per_mechanic": {
+      "charge": 3,
+      "momentum": 3,
+      "counter": 4,
+      "guard": 3,
+      "ward": 3
+     },
+     "min_maps": 3,
+     "missing_per_map": [
+      [
+       "charge"
+      ],
+      [
+       "ward"
+      ],
+      [
+       "momentum"
+      ],
+      [
+       "guard"
+      ]
+     ]
+    }
+   },
+   "selection": {
+    "record": "docs/antagonist_boss/52_changelog.md",
+    "world": 5,
+    "rule": "v7-hard3: a seal on every map; the replacement misses the mechanism that was in all 4 maps; candidates E*-searched under the formal rules, combination minimising the largest world-mean deviation (2026-11-14)",
+    "replaced": [
+     {
+      "old": 2500156,
+      "new": 2500516,
+      "position": 2,
+      "missing": "counter"
+     }
+    ],
+    "previous": {
+     "record": "docs/antagonist_boss/52_changelog.md",
+     "world": 5,
+     "rule": "v7-hard2: same maps as v7-hard, irregular test-fight rhythm (2026-11-12)",
+     "replaced": [],
+     "previous": {
+      "record": "docs/antagonist_boss/52_changelog.md",
+      "world": 5,
+      "rule": "v7-hard E* calibration (2026-11-12)",
+      "replaced": [],
+      "previous": {
+       "record": "docs/antagonist_boss/52_changelog.md",
+       "world": 5
+      }
+     }
+    }
+   },
+   "surface": {
+    "name": "k42",
+    "identity_key": 42,
+    "module": "proto-worlds-v1-2026-11-07",
+    "economy": {
+     "life_in_hits": 25,
+     "rest_pct": 42,
+     "block_x": 111,
+     "block_pct": 50
+    },
+    "facts": {
+     "base_atk": 8,
+     "max_hp": 200,
+     "shield": 6,
+     "heal": 12,
+     "cards": {
+      "beskain": "heal",
+      "dradul": "buff_mark",
+      "roubia": "attack",
+      "skezal": "dodge",
+      "ziakho": "block"
+     },
+     "labels": {
+      "me.atk": "a2",
+      "me.block": "A2",
+      "me.cap": "a1",
+      "me.carry": "A3",
+      "me.dodge": "A8",
+      "me.double": "A1",
+      "me.energy": "a4",
+      "me.hp": "a3",
+      "me.offence": "A4",
+      "me.poison": "A6",
+      "me.tempo": "A7",
+      "me.wound": "A5",
+      "them.armour": "b1",
+      "them.atk": "b2",
+      "them.charge": "B3",
+      "them.guard": "B2",
+      "them.hp": "b3",
+      "them.mark": "B5",
+      "them.mimic": "B1",
+      "them.ward": "B4"
+     },
+     "weakest_map_hit": 7,
+     "weakest_boss_hit": 7
+    },
+    "heal_off": {
+     "module": "heal-off-v1-2026-11-09",
+     "max_hp": 200,
+     "heal": 12,
+     "rest_pct": 42,
+     "max_hp_new": 236,
+     "adjust": 0,
+     "rest_pct_new": 36,
+     "rest_each": 84,
+     "rest_each_new": 84
+    }
+   },
+   "maps_measured": [
+    {
+     "salt": 2500027,
+     "missing": [
+      "charge"
+     ],
+     "B": 380,
+     "amount": 36,
+     "rests": 4,
+     "max_hp": 236,
+     "oracle": {
+      "win": true,
+      "turns": 70.0,
+      "hp_lost": 261.0,
+      "low": 79.0,
+      "max_fight_turns": 18.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 73.0,
+      "hp_lost": 293.0,
+      "low": 46.0,
+      "max_fight_turns": 17.0
+     },
+     "frontier": {
+      "E_star": 0.011458333333333334,
+      "T": 48,
+      "L": 171,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w5_2500027.json",
+      "sha256": "406e1c5f14c580ccb338ad5c3e2ec560d9aa18229cbc0f40c43fa058c0dfc206"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w5.json"
+    },
+    {
+     "salt": 2500516,
+     "missing": [
+      "counter"
+     ],
+     "B": 436,
+     "amount": 50,
+     "rests": 4,
+     "max_hp": 236,
+     "oracle": {
+      "win": true,
+      "turns": 95.0,
+      "hp_lost": 297.0
+     },
+     "R1v2": {
+      "win": true,
+      "hp_lost": 337.0,
+      "max_fight_turns": 23.0
+     },
+     "frontier": {
+      "E_star": 0.008437090432503278,
+      "T": 56,
+      "L": 230,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/v7hard3_select/E_w5_2500516.json",
+      "sha256": "66817c234d02ddca801428077deb75d3ff333d890578a1d3efa7941683005faa"
+     },
+     "rules": "formal-v1-2026-11-13 (rest amount from the candidate table of this world)",
+     "refs_source": "frontier/v7hard3_select/formal_w5_*.json"
+    },
+    {
+     "salt": 2500200,
+     "missing": [
+      "momentum"
+     ],
+     "B": 408,
+     "amount": 43,
+     "rests": 4,
+     "max_hp": 236,
+     "oracle": {
+      "win": true,
+      "turns": 95.0,
+      "hp_lost": 269.0,
+      "low": 84.0,
+      "max_fight_turns": 19.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 100.0,
+      "hp_lost": 314.0,
+      "low": 38.0,
+      "max_fight_turns": 20.0
+     },
+     "frontier": {
+      "E_star": 0.007868937048503612,
+      "T": 57,
+      "L": 225,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w5_2500200.json",
+      "sha256": "c622d9785630501c2ed4d919314926f00a93e6bb61d5ba1fc43f8c86ffbf560f"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w5.json"
+    },
+    {
+     "salt": 2500244,
+     "missing": [
+      "guard"
+     ],
+     "B": 424,
+     "amount": 47,
+     "rests": 4,
+     "max_hp": 236,
+     "oracle": {
+      "win": true,
+      "turns": 77.0,
+      "hp_lost": 295.0,
+      "low": 82.0,
+      "max_fight_turns": 19.0
+     },
+     "R1v2": {
+      "win": true,
+      "turns": 83.0,
+      "hp_lost": 328.0,
+      "low": 49.0,
+      "max_fight_turns": 18.0
+     },
+     "frontier": {
+      "E_star": 0.00799266247379455,
+      "T": 54,
+      "L": 241,
+      "beam": 60000,
+      "deal": "structural",
+      "truncated": false,
+      "source": "frontier/formal_v1/w5_2500244.json",
+      "sha256": "bdee3f40f774022d63013662e6ef0ccf6db0ce43541e21f7c3738b9967444f8d"
+     },
+     "rules": "formal-v1-2026-11-13",
+     "refs_source": "frontier/formal_v1/refs_w5.json"
+    }
+   ],
+   "maps_measured_hard2": [
+    {
+     "salt": 2500027,
+     "missing": "charge",
+     "B": 572,
+     "D": 0.4983,
+     "D_fraction": "285.0/572",
+     "I": 0.0559,
+     "D_oracle": 0.4423076923076923,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 69.0,
+      "hp_lost": 285.0
+     },
+     "oracle": {
+      "turns": 66.0,
+      "hp_lost": 253.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w5.json",
+     "frontier": {
+      "E_star": 0.015734265734265732,
+      "T": 44,
+      "L": 176,
+      "B": 572,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w5_2500027.json",
+      "sha256": "8f864237b45265ab7e17cf225c5b0ac5c6318cfc6179b9cc8b5ac785a07dc94b"
+     },
+     "test_rhythm": [
+      {
+       "layer": 7,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500156,
+     "missing": "ward",
+     "B": 572,
+     "D": 0.5647,
+     "D_fraction": "323.0/572",
+     "I": 0.0752,
+     "D_oracle": 0.48951048951048953,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 84.0,
+      "hp_lost": 323.0
+     },
+     "oracle": {
+      "turns": 77.0,
+      "hp_lost": 280.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w5.json",
+     "frontier": {
+      "E_star": 0.01256555944055944,
+      "T": 48,
+      "L": 227,
+      "B": 572,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w5_2500156.json",
+      "sha256": "2686f0ad5cd4e8f4ca13afd3cebd066db6a3c0a2396726755242d619c55c2c62"
+     },
+     "test_rhythm": [
+      {
+       "layer": 8,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "layer": 11,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        4,
+        6,
+        8,
+        11
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500200,
+     "missing": "momentum",
+     "B": 572,
+     "D": 0.528,
+     "D_fraction": "302.0/572",
+     "I": 0.0787,
+     "D_oracle": 0.4493006993006993,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 96.0,
+      "hp_lost": 302.0
+     },
+     "oracle": {
+      "turns": 91.0,
+      "hp_lost": 257.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w5.json",
+     "frontier": {
+      "E_star": 0.011538461538461537,
+      "T": 50,
+      "L": 242,
+      "B": 572,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w5_2500200.json",
+      "sha256": "1c8d89ac5d15349babf4a0dbd017009f60ed209aba480296fd2114f03020d83b"
+     },
+     "test_rhythm": [
+      {
+       "layer": 7,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        4,
+        8,
+        11
+       ]
+      },
+      {
+       "layer": 11,
+       "mechanism": "guard",
+       "rule": "irr50",
+       "phases_after_each_end": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "salt": 2500244,
+     "missing": "guard",
+     "B": 572,
+     "D": 0.5594,
+     "D_fraction": "320.0/572",
+     "I": 0.0577,
+     "D_oracle": 0.5017482517482518,
+     "R1v2_win": true,
+     "oracle_win": true,
+     "R1v2": {
+      "turns": 79.0,
+      "hp_lost": 320.0
+     },
+     "oracle": {
+      "turns": 73.0,
+      "hp_lost": 287.0
+     },
+     "panel_best": {
+      "group": "habit",
+      "key": "0",
+      "pass_rate": 0.0,
+      "players": 4952
+     },
+     "wardstrict": "blockonly",
+     "mapcharge": "len234",
+     "mapguard": "irr50",
+     "source": "frontier/rhythm_v2/panel_w5.json",
+     "frontier": {
+      "E_star": 0.01171700639785746,
+      "T": 47,
+      "L": 257,
+      "B": 572,
+      "beam": 60000,
+      "deal": "structural",
+      "how": "searched with this B under PROTO_MAPCHARGE=len234, PROTO_MAPGUARD=irr50",
+      "source": "frontier/rhythm_v2/w5_2500244.json",
+      "sha256": "8998f7f5b0dbb6f9795f70de59e47e8ed4e0da8984c5688d58d650cc2966ea6d"
+     },
+     "test_rhythm": [
+      {
+       "layer": 10,
+       "mechanism": "charge",
+       "rule": "len234",
+       "releases_if_only_end": [
+        4,
+        8,
+        12
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tier": {
+  "wardstrict": "blockonly",
+  "bosslife": "off",
+  "lives": 4,
+  "mapcharge": "len234",
+  "mapguard": "irr50",
+  "correspond": "off",
+  "rhythm_rule": "test fights only: charge releases 2/3/4 turns apart (len234), guard flips with p=0.5 and holds a phase at most 3 turns (irr50); teach fights keep 0-1-2-release and flip every END",
+  "wardlimit": "off",
+  "ward_test_start": 3,
+  "turn_cap": 40,
+  "restamt": "r1v2x130c",
+  "rule_set": "formal-v1-2026-11-13 (scripts/formal_rules.py)"
+ },
+ "calibration": {
+  "rules": "formal-v1-2026-11-13",
+  "world_mean_E_star": {
+   "1": 0.00894822853594229,
+   "2": 0.00939935025326557,
+   "3": 0.009430764055959471,
+   "4": 0.0090132675798138,
+   "5": 0.008939255822033693
+  },
+  "grand_mean": 0.009146173249402964,
+  "deviation": {
+   "1": -0.021642353371514766,
+   "2": 0.02768119485153342,
+   "3": 0.03111583378054683,
+   "4": -0.014531287125775783,
+   "5": -0.02262338813478937
+  },
+  "tolerance": 0.05,
+  "within_tolerance": true,
+  "previous": {
+   "rules": "formal-v1-2026-11-13",
+   "world_mean_E_star": {
+    "1": 0.00894822853594229,
+    "2": 0.00939935025326557,
+    "3": 0.009874638575430058,
+    "4": 0.0090132675798138,
+    "5": 0.008939255822033693
+   },
+   "grand_mean": 0.009234948153297081,
+   "deviation": {
+    "1": -0.031047236280630996,
+    "2": 0.01780216815941671,
+    "3": 0.06926843675939787,
+    "4": -0.024004528212119625,
+    "5": -0.0320188404260634
+   },
+   "tolerance": 0.05,
+   "within_tolerance": false,
+   "previous": {
+    "world_mean_E_star": {
+     "1": 0.012748465822753598,
+     "2": 0.012951611834511769,
+     "3": 0.012666807183043546,
+     "4": 0.012471610835054575,
+     "5": 0.012888823277786043
+    },
+    "grand_mean": 0.012745463790629907,
+    "deviation": {
+     "1": 0.000235537299623223,
+     "2": 0.01617422851520045,
+     "3": -0.006171341339825331,
+     "4": -0.021486307605115273,
+     "5": 0.011247883130116376
+    },
+    "tolerance": 0.05
+   }
+  }
+ }
+}

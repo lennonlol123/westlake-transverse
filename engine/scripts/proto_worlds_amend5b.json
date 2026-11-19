@@ -1,0 +1,161 @@
+{
+ "version": "world10-surfaces5-v1-2026-11-07",
+ "doc": "docs/antagonist_boss/43_eight_world_pack.md section 17 (amendment 5b)",
+ "rule_D": [
+  "D1 max HP differs from every accepted world",
+  "D2 (base attack, max HP, shield, heal) not identical to any accepted world",
+  "D3 same base attack and shield -> max HP at least 10 % apart"
+ ],
+ "balance": [
+  0.465,
+  0.585
+ ],
+ "prefilter": [
+  65.4,
+  104.1
+ ],
+ "accepted_fixed": [
+  "A",
+  "k19",
+  "k3",
+  "k21",
+  "k42",
+  "k13",
+  "k15"
+ ],
+ "replaced": "k79",
+ "slot": 6,
+ "surfaces": {
+  "k82": {
+   "identity_key": 82,
+   "identity_version": 3,
+   "names_key": 8300000000,
+   "economy": {
+    "life_in_hits": 33,
+    "rest_pct": 30,
+    "block_x": 112,
+    "block_pct": 50
+   },
+   "draws": {
+    "life_in_hits": [
+     [
+      31,
+      "E1 too close to A"
+     ],
+     [
+      31,
+      "E1 too close to A"
+     ],
+     [
+      33,
+      "accepted"
+     ]
+    ],
+    "rest_pct": [
+     [
+      39,
+      "E2 taken by an accepted surface"
+     ],
+     [
+      30,
+      "accepted"
+     ]
+    ],
+    "block_x": [
+     [
+      112,
+      "accepted"
+     ]
+    ]
+   },
+   "facts": {
+    "base_atk": 8,
+    "max_hp": 264,
+    "shield": 6,
+    "heal": 14,
+    "cards": {
+     "biaskam": "attack",
+     "flogun": "heal",
+     "poulnae": "buff_mark",
+     "ralkin": "block",
+     "vingail": "dodge"
+    },
+    "labels": {
+     "me.atk": "a1",
+     "me.block": "A1",
+     "me.cap": "a3",
+     "me.carry": "A6",
+     "me.dodge": "A5",
+     "me.double": "A3",
+     "me.energy": "a2",
+     "me.hp": "a4",
+     "me.offence": "A7",
+     "me.poison": "A2",
+     "me.tempo": "A8",
+     "me.wound": "A4",
+     "them.armour": "b1",
+     "them.atk": "b2",
+     "them.charge": "B1",
+     "them.guard": "B5",
+     "them.hp": "b3",
+     "them.mark": "B2",
+     "them.mimic": "B3",
+     "them.ward": "B4"
+    },
+    "weakest_map_hit": 7,
+    "weakest_boss_hit": 7
+   }
+  }
+ },
+ "tried": [
+  {
+   "key": 80,
+   "result": "skipped",
+   "why": "K2 slots ('B4', 'B2', 'B5') share more than 1 with an accepted surface"
+  },
+  {
+   "key": 81,
+   "result": "skipped",
+   "why": "K1 base attack 6 already used 2 times by accepted surfaces"
+  },
+  {
+   "key": 82,
+   "name": "k82",
+   "economy": {
+    "life_in_hits": 33,
+    "rest_pct": 30,
+    "block_x": 112,
+    "block_pct": 50
+   },
+   "base_atk": 8,
+   "max_hp": 264,
+   "shield": 6,
+   "heal": 14,
+   "budget_ratio": 77.75,
+   "prefilter": true,
+   "distinct": [],
+   "D_median": 0.49437299035369775,
+   "qualifying": 158,
+   "qualifying_by_missing": {
+    "guard": 42,
+    "counter": 51,
+    "momentum": 19,
+    "charge": 26,
+    "ward": 20
+   },
+   "refs_lose": 0,
+   "result": "accepted"
+  }
+ ],
+ "order": [
+  "A",
+  "k19",
+  "k3",
+  "k21",
+  "k42",
+  "k82",
+  "k13",
+  "k15"
+ ],
+ "seconds": 907.6
+}

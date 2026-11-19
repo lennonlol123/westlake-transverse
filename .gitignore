@@ -1,0 +1,8 @@
+dist/
+.play/
+__pycache__/
+*.pyc
+.DS_Store
+*.key
+.env
+node_modules/

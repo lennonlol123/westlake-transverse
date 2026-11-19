@@ -1,0 +1,32 @@
+[
+  {
+    "universe": 1,
+    "actions": 69,
+    "records": 5,
+    "seconds": 8.69
+  },
+  {
+    "universe": 2,
+    "actions": 110,
+    "records": 10,
+    "seconds": 23.01
+  },
+  {
+    "universe": 3,
+    "actions": 151,
+    "records": 15,
+    "seconds": 44.14
+  },
+  {
+    "universe": 4,
+    "actions": 85,
+    "records": 20,
+    "seconds": 56.31
+  },
+  {
+    "universe": 5,
+    "actions": 73,
+    "records": 25,
+    "seconds": 67.09
+  }
+]

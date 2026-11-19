@@ -1,0 +1,31 @@
+{
+  "version": "0.29.0",
+  "source": "https://cdn.jsdelivr.net/pyodide/v0.29.0/full/",
+  "packages": [
+    "certifi",
+    "charset-normalizer",
+    "idna",
+    "libopenssl",
+    "regex",
+    "requests",
+    "ssl",
+    "tiktoken",
+    "urllib3"
+  ],
+  "files": {
+    "certifi-2025.8.3-py3-none-any.whl": "fe2ab67c20cf4be3333c5b80829b077347b76d77f8b03937f6804959f107648b",
+    "charset_normalizer-3.4.3-py3-none-any.whl": "5c6f0cf9d2fa4618ba46be7d5a3d7a1cb92efa11142b6fa9ecb63ac1a46569de",
+    "idna-3.10-py3-none-any.whl": "957e7a756eaf26e5925503af100a006ade802efe1cce768c86e91290b9a7c6c6",
+    "libopenssl-1.1.1w.zip": "8d073841eb93488e79f0f1f354cbe03dad17d6705e75249b07516040869a5ad1",
+    "pyodide-lock.json": "701557726114e9a968d2088153414b2f126b8631aa734ed98eaf1797d4e4d087",
+    "pyodide.asm.js": "f1e70077bd701757b2798fc57f540fe39cf23d36ee5cd7c1a9b3a6f35cf500a7",
+    "pyodide.asm.wasm": "615172c6b2f5efe53e41d0201a98eb37c1f3aa7675d11cb06b6079b3a6b2bef5",
+    "pyodide.mjs": "31afa960fdf68333de6f3f0513bad154495c8fc635a66b7e58ab9cf356a76501",
+    "python_stdlib.zip": "e389fbdc394a00d31ff0624386c9e3e52e04727130ac73597a99c477afe4f1ca",
+    "regex-2024.11.6-cp313-cp313-pyodide_2025_0_wasm32.whl": "d2b08cca71336244c9fd93cf4b7b1713049cb0e3c09d6400a5e87e06e5314144",
+    "requests-2.32.4-py3-none-any.whl": "15fa9383fb4620177dbccba41b8f61db5e8bd2213fba1ac6914ea70fa048b760",
+    "ssl-1.0.0-cp313-cp313-pyodide_2025_0_wasm32.whl": "223b3bc1e786b886aa5ef0e0ec7d67d6a4415cf35ec94b39484892e911945506",
+    "tiktoken-0.9.0-cp313-cp313-pyodide_2025_0_wasm32.whl": "b56b756eb15fecbdd37d283e41bcd468522c064bdcf1e5f6f33eddd7b2ffa7d6",
+    "urllib3-2.5.0-py3-none-any.whl": "65e9e131690e9a5008ada816a4a3f202424a99fca75fd294e22995374479f986"
+  }
+}
