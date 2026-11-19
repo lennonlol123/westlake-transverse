@@ -26,6 +26,5 @@
     "feedback_in_record"
   ],
   "paid_model_requests": 0,
-  "published": false,
-  "publication": "User elected GitHub Desktop push; no GitHub credentials available locally."
+  "scope": "Local engine and browser validation; live publication status is reported by GitHub Actions."
 }
